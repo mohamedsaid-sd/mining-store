@@ -1,0 +1,16 @@
+body{
+	background-color: #fa4;
+}
+
+/*The Desigin Of the header*/
+header{
+	background-color: #234;
+}
+
+header button , header img {
+	width: 40px;
+	height: 25px;
+	padding: 0px;
+	margin: 2px;
+	border : none;
+}
