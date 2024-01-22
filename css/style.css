@@ -1,5 +1,5 @@
 body{
-	background-color: #fa4;
+	background-color: #ddd;
 }
 
 /*The Desigin Of the header*/
@@ -15,6 +15,31 @@ header button , header img {
 	border : none;
 }
 
+#list{
+	padding: 10px;
+	margin: 10px;
+	color: #ddd;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+#list a{
+	display: inline;
+	text-decoration: none;
+	color: #444;
+	margin: 5px;
+	font-size: 20px;
+	background-color: #fff;
+	padding: 5px;
+	border-radius: 10px;
+	max-width: 120px;
+	text-align: center;
+}
+
+#list a:hover{
+	color: #666;
+}
+
 .cat{
 			text-align: start;
 		unicode-bidi: plaintext;
@@ -28,6 +53,7 @@ header button , header img {
 	float: left;
 	width: 15%;
 	height: 100px;
+	box-shadow: 2px 2px 5px gray;
 }
 
 .cat-long{
@@ -43,6 +69,7 @@ header button , header img {
 	float: left;
 	width: 20%;
 	height: 100px;
+	box-shadow: 2px 2px 5px gray;
 }
 
 .cat-long img{
@@ -55,15 +82,55 @@ header button , header img {
    width: 80%;
 }
 
+footer{
+	display: inline;
+	position: fixed;
+	padding: 10px;
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+	background-color: #234;
+	bottom: 0px;
+	width: 70%;
+}
 
-@media only screen and (max-width: 767px) {
+html , body , form  , .btn , h1 , h2 , h3 , div , .cat , .cat-long , marquee , .row , a , #list , #list a  {
+		direction: auto; 
+		text-align: start;
+		unicode-bidi: plaintext;
+}
+
+input{
+	text-align: center;
+}
+
+
+@media only screen and (max-width: 800px) {
+
+form{
+	padding: 5px;
+}
+
+#list{
+	display: block;
+}
+
+#list a{
+	display: block;
+	min-width: 90%;
+	text-align: center;
+}
+
+input{
+	width: 85%;
+}
 
 .cat{
-	width: 40%;
+	width: 39%;
 }
 
 .cat-long{
-	width: 40%;
+	width: 39%;
 }
 
 }
