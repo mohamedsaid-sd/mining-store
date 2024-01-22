@@ -27,11 +27,12 @@ include 'lang/ar.php';
 <html>
 <head>
 	<title> موقع تعدين </title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <style type="text/css">
-	html , body , form , h1 , h2 , h3 , div{
+	html , body , form , h1 , h2 , h3 , div , .cat , .cat-long , marquee{
+		direction: auto; 
 		text-align: start;
 		unicode-bidi: plaintext;
 	}
@@ -52,18 +53,83 @@ include 'lang/ar.php';
 	padding: 0px;
 	margin: 2px;
 	border : none;" name="en"><img src="image/eng.png"/> </button>
-<h3> <?php echo _LANG; ?> </h3>
 </form>
+	<h2 style="text-align: center;color: #fff;"> <?php echo _WEB_SITE_NAME; ?> </h2><br/>
 
 </header>
 
+<marquee style="background-color: #eee;padding: 10px;margin-top: 10px;font-weight: bold;" direction="right"> <?php echo _WEB_SITE_NAME; ?> مرحبا بكم في موقع سوق التعدين نرحب بكل الاعضاء الجدد ونتمني لكم تجربه ممتعة ومفيدة معنا , اخر اخبار السوق اليوم متوفرة عروض ممتازة علي المعدات في صفحة المعدات , تراجع ملحوظ لاسعار الذهب اليوم مقابل الدولار مما يعني توقع انخفاضه الاسبوع المقبل , لقد وفرنا لاعضائنا الكرام مجموعة من الخدمات المتعلقة بالكهرباء والمكنيكا مع موظفين باعلي الخبراء للتقام بعمليات الصيانه من اجلكم ... للمذيد من الاخبار الرجار تصفح قسم الاخبار في الموقع   </marquee>
 
+<div class="row" style="text-align: center;margin: 2px;">
 
-<?php echo _HELLO; ?>
+<a href="www.google.com">
+<div class="cat-long">
+	
+	<?php echo _EQUIPMENT; ?>
+	<br/>
+	<img src="image/main/car.png"/>
+</div>
+</a>
 
-	<h2 style="text-align: center;"> <?php echo _WEB_SITE_NAME; ?> </h2>
+<div class="cat">
+	
+	<?php echo _SERVICES; ?>
+	<br/>
+	<img src="image/main/lap.png"/>
 
-<div> 
+</div>
+
+<div class="cat">
+	
+	المعالجة
+
+</div>
+
+<div class="cat">
+	
+	متنوعة
+
+</div>
+
+<div class="cat">
+	
+	الخدمات
+
+</div>
+
+<div class="cat">
+	
+	الاستشارات
+
+</div>
+
+<div class="cat">
+	
+	المواقع
+
+</div>
+
+<div class="cat-long">
+	
+	التوظيف
+
+</div>
+
+<div class="cat">
+	
+	الاجراءات
+
+</div>
+
+<div class="cat">
+	
+	اخرى
+
+</div>
+
+</div>
+
+<!-- <div> 
 
 <b> <?php echo _MAIN; ?> </b>
 <a href="#"> الآليات والمعدات </a> -
@@ -76,9 +142,8 @@ include 'lang/ar.php';
 <a href="#"> التوظيف </a> -
 <a href="#"> الاجراءات </a>
  
-</div>
+</div> -->
 
-<button class="btn btn-danger"> Login  </button>
 
 </body>
 </html>

@@ -14,3 +14,56 @@ header button , header img {
 	margin: 2px;
 	border : none;
 }
+
+.cat{
+			text-align: start;
+		unicode-bidi: plaintext;
+	color: #000;
+	font-weight: bold;
+	font-size: 15px;
+	background-color: #fff;
+	padding: 10px;
+	margin: 11px;
+	border-radius: 10px;
+	float: left;
+	width: 15%;
+	height: 100px;
+}
+
+.cat-long{
+			text-align: start;
+		unicode-bidi: plaintext;
+	color: #000;
+	font-weight: bold;
+	font-size: 15px;
+	background-color: #fff;
+	padding: 10px;
+	margin: 11px;
+	border-radius: 10px;
+	float: left;
+	width: 20%;
+	height: 100px;
+}
+
+.cat-long img{
+   height: 90px;
+   width: 80%;
+}
+
+.cat img{
+   height: 90px;
+   width: 80%;
+}
+
+
+@media only screen and (max-width: 767px) {
+
+.cat{
+	width: 40%;
+}
+
+.cat-long{
+	width: 40%;
+}
+
+}
