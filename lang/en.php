@@ -55,4 +55,10 @@ define('_cranes', 'Cranes');
 define('_forklifts', 'Forklifts');
 define('_punching', 'Punching machines');
 
+// Products
+define('_products', 'Products');
+
+// Detailes
+define('_detailes', 'Products Detailes');
+
 ?>

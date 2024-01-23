@@ -55,4 +55,10 @@ define('_cranes', 'الكرينات');
 define('_forklifts', 'الفوركلفتات');
 define('_punching', 'مكينات التخريم');
 
+// Products
+define('_products', 'المنتجات');
+
+// Detailes
+define('_detailes', 'تفاصيل المنتج');
+
 ?>
