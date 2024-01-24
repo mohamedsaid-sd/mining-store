@@ -236,9 +236,7 @@ html , form , p , b , body  , .btn , h1 , h2 , h3 , div , .cat , .cat-long , mar
 @media only screen and (max-width: 800px) {
 
 .detailes .left .info{
- width: 23%;
- font-size: 9px;
- font-style: normal;
+ width: 32%;
 }
 
 .detailes , .detailes .left , .detailes .right , textarea , button {
