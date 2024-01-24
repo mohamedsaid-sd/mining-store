@@ -26,7 +26,7 @@ include '../lang/ar.php';
 <!DOCTYPE html>
 <html dir="rtl">
 <head>
-	<title> <?php echo _detailes; ?> </title>
+	<title> <?php echo _jobdetailes; ?> </title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
@@ -61,36 +61,35 @@ include '../lang/ar.php';
 
 <br/><br/>
 
-
 </header>
 
 
 <div class="row" style="margin: 2px;font-weight: bold;">
 <br/>
-<?php echo _detailes; ?>
+<?php echo _jobdetailes; ?>
 <br/>
 
 <div class="detailes">
 
 <div class="right">
 <span style="float: left;" class="icon-heart-empty"></span><br/>
-<img src="../image/main/truck.png">
+<img src="../image/job/job.png">
 <!-- The Brand -->
-<b> حفار هولندي 170  </b>
+<b> مطلوب حارس امن  </b>
 
 
-	<b> وصف المنتج </b>
-	<p> عرض للبيع قلاب مستعمل خفيف يتحرك مسافة 120 كليو لونه اصفر شهادة وارد سنه الصنع 2003 ساشى مضمون لا توجد به اي عيوب لساتك قوية ممتازة تم تغييرها قبل شهر من الان لمذيد من التفاصيل اتصال او واتساب 0122674101 </p>
+	<b> وصف الوظيفة </b>
+	<p> نريد حارس لحراسة شركة خاصة يجب ان يكون لديه الكفاءة والخبرة في الحراسة وحمل السلاح ويجب عليه ان يكون عمره لا يقل عن 30 عام ولديه لغة انجليزية اتصال او واتساب 0122674101 </p>
 
 
 <!-- The Size -->
 <p style="font-size: 14px;padding: 0px;font-weight: bold;"> 
- 150 <span class="icon-resize-full"></span>
-  - 
+
+ 
 <!-- The Yeer -->
- 1994 <span class="icon-calendar"></span>
+ 24-1-2024 <span class="icon-calendar"></span>
 <!-- The Price -->
-<br/> <i>11,000 ج.س</i>
+<br/> <i> 100,000 ج.س </i>
 <!-- The Views -->
 <br/><i><span class="icon-eye-open"></span>59</i>
 <!-- The comments -->
@@ -105,57 +104,17 @@ include '../lang/ar.php';
 	
 <div class="info">
 	<h4 class="h"> القسم </h4>
-	<h4> الآليات </h4>
+	<h4> التوظيف </h4>
 </div>
 
 <div class="info">
 	<h4 class="h"> نوع الاعلان </h4>
-	<h4> للبيع </h4>
-</div>
-
-<div class="info">
-	<h4 class="h"> نوع المعدة </h4>
-	<h4> قلاب </h4>
-</div>
-
-<div class="info">
-	<h4 class="h"> الماركة </h4>
-	<h4> متسوبيتشى </h4>
+	<h4> وظيفة مطلوبة </h4>
 </div>
 
 <div class="info">
 	<h4 class="h"> الفئة </h4>
-	<h4> دفار </h4>
-</div>
-
-<div class="info">
-	<h4 class="h"> سنه الصنع </h4>
-	<h4> 2023 </h4>
-</div>
-
-<div class="info">
-	<h4 class="h"> العداد </h4>
-	<h4> 2500 </h4>
-</div>
-
-<div class="info">
-	<h4 class="h"> الحالة </h4>
-	<h4> جديد </h4>
-</div>
-
-<div class="info">
-	<h4 class="h"> اللون </h4>
-	<h4> الاصفر </h4>
-</div>
-
-<div class="info">
-	<h4 class="h"> الترخيص </h4>
-	<h4> تجاري </h4>
-</div>
-
-<div class="info">
-	<h4 class="h"> التامين </h4>
-	<h4> تجاري </h4>
+	<h4> حراسة وامان </h4>
 </div>
 
 <div class="info">
@@ -179,19 +138,19 @@ include '../lang/ar.php';
 
 <h3> التعليقات </h3>
 
-<h4> - Mohamed Said </h4>
+<h4> - Omer Khaled </h4>
  <div style="font-size: 15px;background-color: #fff;width: 98%;padding: 10px;border-radius: 10px;font-style: normal;">
- 	 المنتج رائع وجميل ومن السهل التعامل مع البائع
+ 	هل يشترط علي المتقدم ان يكون من نفس الولاية
  </div>
 
- <h4> - Ahmed Abdo </h4>
+ <h4> - Ahmed al-jak </h4>
  <div style="font-size: 15px;background-color: #fff;width: 98%;padding: 10px;border-radius: 10px;font-style: normal;">
- 	 هل يوجد نفس المنتج مع سنة صنع 2010
+ 	 عمري 25 عام هل اصلح للوظيفة
  </div>
 
-  <h4> - Rania aWad </h4>
+  <h4> - Salem aWad </h4>
  <div style="font-size: 15px;background-color: #fff;width: 98%;padding: 10px;border-radius: 10px;font-style: normal;">
- 	 I ask for it alraey and it's ready 
+ 	 Can I work just 4 month
  </div>
 
 

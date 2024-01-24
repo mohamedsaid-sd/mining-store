@@ -61,4 +61,11 @@ define('_products', 'Products');
 // Detailes
 define('_detailes', 'Products Detailes');
 
+// Jobs
+define('_jobs', 'The Jobs');
+define('_jobdetailes', 'The Job Detailes');
+
+// services
+define('_servicedetailes', 'تفاصيل الخدمة');
+
 ?>

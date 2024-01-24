@@ -26,7 +26,7 @@ include '../lang/ar.php';
 <!DOCTYPE html>
 <html dir="rtl">
 <head>
-	<title> <?php echo _detailes; ?> </title>
+	<title> <?php echo _servicedetailes; ?> </title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
@@ -67,30 +67,30 @@ include '../lang/ar.php';
 
 <div class="row" style="margin: 2px;font-weight: bold;">
 <br/>
-<?php echo _detailes; ?>
+<?php echo _servicedetailes; ?>
 <br/>
 
 <div class="detailes">
 
 <div class="right">
 <span style="float: left;" class="icon-heart-empty"></span><br/>
-<img src="../image/main/truck.png">
+<img src="../image/services/service-fuell.png">
 <!-- The Brand -->
-<b> حفار هولندي 170  </b>
+<b> مطلوب جازولين خام  </b>
 
 
-	<b> وصف المنتج </b>
-	<p> عرض للبيع قلاب مستعمل خفيف يتحرك مسافة 120 كليو لونه اصفر شهادة وارد سنه الصنع 2003 ساشى مضمون لا توجد به اي عيوب لساتك قوية ممتازة تم تغييرها قبل شهر من الان لمذيد من التفاصيل اتصال او واتساب 0122674101 </p>
+	<b> وصف الخدمة </b>
+	<p> نحتاج في مصنع الي جازولين لتشغيل الماكينات الثقيلة والخفيفة لدينا 5 ماكينات غزل ونسيج تحتاج الي جازولين عدد 10 جالون لكل مكنه باجمالي 5 جالون جازولين  اتصال او واتساب 0122674101 </p>
 
 
 <!-- The Size -->
 <p style="font-size: 14px;padding: 0px;font-weight: bold;"> 
- 150 <span class="icon-resize-full"></span>
-  - 
+
+ 
 <!-- The Yeer -->
- 1994 <span class="icon-calendar"></span>
+ 24-1-2024 <span class="icon-calendar"></span>
 <!-- The Price -->
-<br/> <i>11,000 ج.س</i>
+<br/> <i> 50,000 ج.س </i>
 <!-- The Views -->
 <br/><i><span class="icon-eye-open"></span>59</i>
 <!-- The comments -->
@@ -105,72 +105,32 @@ include '../lang/ar.php';
 	
 <div class="info">
 	<h4 class="h"> القسم </h4>
-	<h4> الآليات </h4>
+	<h4> الخدمات </h4>
 </div>
 
 <div class="info">
 	<h4 class="h"> نوع الاعلان </h4>
-	<h4> للبيع </h4>
-</div>
-
-<div class="info">
-	<h4 class="h"> نوع المعدة </h4>
-	<h4> قلاب </h4>
-</div>
-
-<div class="info">
-	<h4 class="h"> الماركة </h4>
-	<h4> متسوبيتشى </h4>
+	<h4> خدمة مطلوبة </h4>
 </div>
 
 <div class="info">
 	<h4 class="h"> الفئة </h4>
-	<h4> دفار </h4>
-</div>
-
-<div class="info">
-	<h4 class="h"> سنه الصنع </h4>
-	<h4> 2023 </h4>
-</div>
-
-<div class="info">
-	<h4 class="h"> العداد </h4>
-	<h4> 2500 </h4>
-</div>
-
-<div class="info">
-	<h4 class="h"> الحالة </h4>
-	<h4> جديد </h4>
-</div>
-
-<div class="info">
-	<h4 class="h"> اللون </h4>
-	<h4> الاصفر </h4>
-</div>
-
-<div class="info">
-	<h4 class="h"> الترخيص </h4>
-	<h4> تجاري </h4>
-</div>
-
-<div class="info">
-	<h4 class="h"> التامين </h4>
-	<h4> تجاري </h4>
+	<h4> توفير وقود </h4>
 </div>
 
 <div class="info">
 	<h4 class="h"> الولاية </h4>
-	<h4> الخرطوم </h4>
+	<h4> دارفور </h4>
 </div>
 
 <div class="info">
 	<h4 class="h"> اقرب مدينه </h4>
-	<h4> بحري </h4>
+	<h4> كردفان </h4>
 </div>
 
 <div class="info">
 	<h4 class="h"> اقرب معلم بارز </h4>
-	<h4> بنك امدرمان </h4>
+	<h4> جامعة كردفان </h4>
 </div>
 
 <br/><br/>
@@ -179,20 +139,17 @@ include '../lang/ar.php';
 
 <h3> التعليقات </h3>
 
-<h4> - Mohamed Said </h4>
+<h4> - Mohamed Ahmed </h4>
  <div style="font-size: 15px;background-color: #fff;width: 98%;padding: 10px;border-radius: 10px;font-style: normal;">
- 	 المنتج رائع وجميل ومن السهل التعامل مع البائع
+ 	يمكن توفير 30 جالون في حساب الجالون ب 50,000
  </div>
 
- <h4> - Ahmed Abdo </h4>
+ <h4> - Ahmed al-jak </h4>
  <div style="font-size: 15px;background-color: #fff;width: 98%;padding: 10px;border-radius: 10px;font-style: normal;">
- 	 هل يوجد نفس المنتج مع سنة صنع 2010
+ 	لدي حوالي 10 جوالين بسعر مناسب 30,000
  </div>
 
-  <h4> - Rania aWad </h4>
- <div style="font-size: 15px;background-color: #fff;width: 98%;padding: 10px;border-radius: 10px;font-style: normal;">
- 	 I ask for it alraey and it's ready 
- </div>
+  
 
 
 </div>

@@ -198,7 +198,7 @@ footer{
 
 
 
-html , body , form  , .btn , h1 , h2 , h3 , div , .cat , .cat-long , marquee , .row , a , #list , #list a  {
+html , form , p , b , body  , .btn , h1 , h2 , h3 , div , .cat , .cat-long , marquee , .row , a , #list , #list a  {
 		direction: auto; 
 		text-align: start;
 		unicode-bidi: plaintext;
@@ -208,6 +208,24 @@ input{
 	text-align: center;
 }
 
+
+.emp-card{
+	background-color: #fff;
+	text-align: start;
+	width: 21%;
+	margin: 1%;
+	padding: 1%;
+	float: right;
+	box-shadow: 1px 2px 2px gray;
+	border-radius: 10px;
+	height: 160px;
+}
+
+.emp-card img{
+ width: 25%;
+ height: 150px;
+ float: right;
+}
 
 @media only screen and (max-width: 800px) {
 
@@ -250,6 +268,10 @@ input{
 
 .cat-long{
 	width: 39%;
+}
+
+.emp-card{
+	width: 95%;
 }
 
 }

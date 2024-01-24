@@ -60,14 +60,7 @@ include 'lang/ar.php';
 
 <br/><br/>
 
-<form><b style="color: #fff;"><?php echo _LOGIN; ?></b>
-	<input type="text" name="user" placeholder="<?php echo _USER_NAME; ?>">
-	<input type="password" name="pass" placeholder="<?php echo _PASSWORD; ?>">
-	<input style="margin: 5px;" type="submit" class="btn btn-success" name="login" value="<?php echo _LOGIN; ?>">
-	<a href=""> <?php echo _CREATE; ?> </a>
 
-	
-</form>
 </header>
 
 <div id="list"> 

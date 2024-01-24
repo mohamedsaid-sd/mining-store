@@ -33,7 +33,18 @@ include 'lang/ar.php';
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <style type="text/css">
+form{
+	padding: 5px;
+}
 
+#log{
+	padding: 5px;
+	vertical-align: center;
+}
+
+#log input{
+	margin-top: 5px;
+}
 </style>
 <body>
 
@@ -42,6 +53,16 @@ include 'lang/ar.php';
 include 'header.php';
 ?>
 
+<form>
+<div id="log" style="color: #000;vertical-align:center;">
+<b style="color: #ddd;"><?php echo _LANGMENT; ?></b>
+<?php echo _LOGIN; ?> &nbsp
+<input type="text" name="user" placeholder="<?php echo _USER_NAME; ?>">
+<input type="password" name="pass" placeholder="<?php echo _PASSWORD; ?>">
+<a class="btn btn-success" href=""> <?php echo _LOGIN; ?> </a>
+<a class="btn btn-danger" href=""> <?php echo _CREATE; ?> + </a>	
+</div>
+</form>
 
 <div id="list"> 
 <?php echo _LANGMENT; ?>
@@ -93,7 +114,7 @@ include 'header.php';
 </div>
 </a>
 
-<a href="#">
+<a href="services.php">
 <div class="cat">
 	
 	<?php echo _SERVICES; ?>
@@ -123,7 +144,7 @@ include 'header.php';
 </div>
 </a>
 
-<a href="#">
+<a href="employment.php">
 <div class="cat-long">
 	
 	<?php echo _employment; ?>
