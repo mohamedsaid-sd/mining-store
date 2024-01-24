@@ -6,11 +6,11 @@ if(!isset($_SESSION['lang'])){
 	$_SESSION['lang'] = 'en';
 }
 
-if(isset($_POST['en'])){
+if(isset($_GET['en'])){
 	$_SESSION['lang'] = 'en';
 }
 
-if(isset($_POST['ar'])){
+if(isset($_GET['ar'])){
 	$_SESSION['lang'] = 'ar';
 }
 
@@ -30,7 +30,18 @@ include 'lang/ar.php';
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<?php 
+	if($_SESSION['lang'] == 'en'){
+	?>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<?php
+	}else{
+	?>
+	<link rel="stylesheet" type="text/css" href="css/style-ar.css">
+	<?php
+	}
+	?>
+
 </head>
 <style type="text/css">
 form{

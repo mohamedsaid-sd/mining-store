@@ -30,38 +30,27 @@ include 'lang/ar.php';
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<?php 
+	if($_SESSION['lang'] == 'en'){
+	?>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<?php
+	}else{
+	?>
+	<link rel="stylesheet" type="text/css" href="css/style-ar.css">
+	<?php
+	}
+	?>
 </head>
 <style type="text/css">
 
 </style>
 <body>
 
-
-<header>
-
-<img src="image/logo.png" style="width: 200px;height: 100px;float: right;" />
-
-<br/><br/>
-
-<form method="post" action="index.php">
-<button style="	width: 40px;
-	height: 25px;
-	padding: 0px;
-	margin: 2px;
-	border : none;" name="ar"><img src="image/ar.png"/></button>
-<button style="	width: 40px;
-	height: 25px;
-	padding: 0px;
-	margin: 2px;
-	border : none;" name="en"><img src="image/eng.png"/> </button>
-</form>
-
-
-<br/><br/>
-
-
-</header>
+<?php 
+// Include the header 
+include 'header.php';
+?>
 
 <div id="list"> 
 <?php echo _LANGMENT; ?>
