@@ -62,10 +62,9 @@ b{
 </style>
 <body>
 
-
 <header>
-<img src="../image/logo.png" style="width: 200px;height: 100px;float: right;" />
-<br/><br/>
+<img src="../image/logo.png" style="width: 120px;height: 60px;float: right;" />
+<br/>
 <div style="float: left;">
 <a href="../index.php?ar=0"><button style="	width: 40px;
 	height: 25px;
@@ -78,7 +77,7 @@ b{
 	margin: 2px;
 	border : none;" name="en"><img src="../image/eng.png"/> </button></a>
 </div>
-<br/><br/><br/><br/>
+<br/><br/><br/>
 </header>
 
 <div id="list"> 

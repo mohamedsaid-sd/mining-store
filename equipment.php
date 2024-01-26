@@ -30,6 +30,7 @@ include 'lang/ar.php';
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 	<?php 
 	if($_SESSION['lang'] == 'en'){
 	?>
@@ -51,7 +52,7 @@ include 'lang/ar.php';
 // Include the header 
 include 'header.php';
 ?>
-
+<!-- 
 <div id="list"> 
 <?php echo _LANGMENT; ?>
 <a href="index.php"> <?php echo _HOME; ?> </a> 
@@ -59,7 +60,7 @@ include 'header.php';
 <a href=""> <?php echo _FQ; ?> </a> 
 <a href=""> <?php echo _CONTACT; ?> </a> 
 <a href=""> <?php echo _ABOUT; ?> </a> 
-</div>
+</div> -->
 
 <marquee style="background-color: #ffe;padding: 10px;margin-top: 10px;font-weight: bold;" direction="right"> <?php echo _WEB_SITE_NAME; ?> مرحبا بكم في موقع سوق التعدين نرحب بكل الاعضاء الجدد ونتمني لكم تجربه ممتعة ومفيدة معنا , اخر اخبار السوق اليوم متوفرة عروض ممتازة علي المعدات في صفحة المعدات , تراجع ملحوظ لاسعار الذهب اليوم مقابل الدولار مما يعني توقع انخفاضه الاسبوع المقبل , لقد وفرنا لاعضائنا الكرام مجموعة من الخدمات المتعلقة بالكهرباء والمكنيكا مع موظفين باعلي الخبراء للتقام بعمليات الصيانه من اجلكم ... للمذيد من الاخبار الرجار تصفح قسم الاخبار في الموقع   </marquee>
 

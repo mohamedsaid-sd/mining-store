@@ -63,8 +63,8 @@ b{
 <body>
 
 <header>
-<img src="../image/logo.png" style="width: 200px;height: 100px;float: right;" />
-<br/><br/>
+<img src="../image/logo.png" style="width: 120px;height: 60px;float: right;" />
+<br/>
 <div style="float: left;">
 <a href="../index.php?ar=0"><button style="	width: 40px;
 	height: 25px;
@@ -77,7 +77,7 @@ b{
 	margin: 2px;
 	border : none;" name="en"><img src="../image/eng.png"/> </button></a>
 </div>
-<br/><br/><br/><br/>
+<br/><br/><br/>
 </header>
 
 <div id="list"> 
@@ -104,7 +104,7 @@ b{
 <p> 100,000 ج.س </p>
 <p style="text-align: left;">
 <!-- The Views -->
-<br/><i><span class="icon-hand-right"></span>86</i>
+<br/><i><span class="icon-thumbs-up"></span>86</i>
 <!-- The comments -->
 <i><span class="icon-comment"></span>  &nbsp 21
 <!--The Favorite -->
@@ -124,7 +124,7 @@ b{
 <p> 270,000 ج.س </p>
 <p style="text-align: left;">
 <!-- The Views -->
-<br/><i><span class="icon-hand-right"></span>87</i>
+<br/><i><span class="icon-thumbs-up"></span>87</i>
 <!-- The comments -->
 <i><span class="icon-comment"></span>  &nbsp 32
 <!--The Favorite -->
@@ -145,7 +145,7 @@ b{
 <p> 50,000 ج.س </p>
 <p style="text-align: left;">
 <!-- The Views -->
-<br/><i><span class="icon-hand-right"></span>86</i>
+<br/><i><span class="icon-thumbs-up"></span>86</i>
 <!-- The comments -->
 <i><span class="icon-comment"></span>  &nbsp 12
 </p>
@@ -164,7 +164,7 @@ b{
 <p> 60,000 ج.س </p>
 <p style="text-align: left;">
 <!-- The Views -->
-<br/><i><span class="icon-hand-right"></span>98</i>
+<br/><i><span class="icon-thumbs-up"></span>98</i>
 <!-- The comments -->
 <i><span class="icon-comment"></span>  &nbsp 8
 <!--The Favorite -->
@@ -184,7 +184,7 @@ b{
 <p> 29,000 ج.س </p>
 <p style="text-align: left;">
 <!-- The Views -->
-<br/><i><span class="icon-hand-right"></span>87</i>
+<br/><i><span class="icon-thumbs-up"></span>87</i>
 <!-- The comments -->
 <i><span class="icon-comment"></span>  &nbsp 32
 <!--The Favorite -->
@@ -204,7 +204,7 @@ b{
 <p> 102,000 ج.س </p>
 <p style="text-align: left;">
 <!-- The Views -->
-<br/><i><span class="icon-hand-right"></span>96</i>
+<br/><i><span class="icon-thumbs-up"></span>96</i>
 <!-- The comments -->
 <i><span class="icon-comment"></span>  &nbsp 30
 <!--The Favorite -->
@@ -224,7 +224,7 @@ b{
 <p> 7,000 ج.س </p>
 <p style="text-align: left;">
 <!-- The Views -->
-<br/><i><span class="icon-hand-right"></span>89</i>
+<br/><i><span class="icon-thumbs-up"></span>89</i>
 <!-- The comments -->
 <i><span class="icon-comment"></span>  &nbsp 20
 <!--The Favorite -->
@@ -244,7 +244,7 @@ b{
 <p> 100,000 ج.س </p>
 <p style="text-align: left;">
 <!-- The Views -->
-<br/><i><span class="icon-hand-right"></span>87</i>
+<br/><i><span class="icon-thumbs-up"></span>87</i>
 <!-- The comments -->
 <i><span class="icon-comment"></span>  &nbsp 21
 <!--The Favorite -->
@@ -264,7 +264,7 @@ b{
 <p> 100,000 ج.س </p>
 <p style="text-align: left;">
 <!-- The Views -->
-<br/><i><span class="icon-hand-right"></span>78</i>
+<br/><i><span class="icon-thumbs-up"></span>78</i>
 <!-- The comments -->
 <i><span class="icon-comment"></span>  &nbsp 21
 <!--The Favorite -->
@@ -284,7 +284,7 @@ b{
 <p> 200,000 ج.س </p>
 <p style="text-align: left;">
 <!-- The Views -->
-<br/><i><span class="icon-hand-right"></span>65</i>
+<br/><i><span class="icon-thumbs-up"></span>65</i>
 <!-- The comments -->
 <i><span class="icon-comment"></span>  &nbsp 14
 <!--The Favorite -->

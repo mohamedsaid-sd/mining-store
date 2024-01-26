@@ -1,14 +1,19 @@
+#bottom{
+	display: none;
+}
+
 html{
 	direction: rtl;
 }
 
 body{
 	background-color: #ccc;
+	margin-bottom: 30px;
 }
 
 /*The Desigin Of the header*/
 header{
-	background-color: #234;
+	background-color: #123;
 }
 
 header button , header img {
@@ -226,6 +231,10 @@ input{
  float: right;
 }
 
+#buttom{
+	display: none;
+}
+
 
 html , form , p , b , body  , .btn , h1 , h2 , h3 , div , .cat , .cat-long , marquee , .row , a , #list , #list a  {
 		direction: auto; 
@@ -234,6 +243,41 @@ html , form , p , b , body  , .btn , h1 , h2 , h3 , div , .cat , .cat-long , mar
 }
 
 @media only screen and (max-width: 800px) {
+
+#bottom{text-align: end;
+	text-align: left;
+	direction: ltr;
+	text-align: center;
+	width: 85%;
+	display: block;
+	position: fixed;
+	bottom: 0px;
+	padding: 5px;
+	background-color: #123;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 5px;
+	border-radius: 20px;
+}
+
+#bottom span{
+	size: 20px;
+	/*display: block;*/
+	margin: 10px;
+}
+
+#bottom a{
+	color: #fff;
+	text-decoration: none;
+}
+
+#bottom a:hover{
+	color: rgb(222, 174, 84);
+}
+
+#bottom a:active{
+	color: rgb(222, 174, 84);
+}
 
 .detailes .left .info{
  width: 32%;
@@ -259,8 +303,8 @@ form{
 }
 
 #list a{
-	display: block;
-	min-width: 90%;
+	font-size: 16px;
+	display: inline;
 	text-align: center;
 }
 

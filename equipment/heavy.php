@@ -30,6 +30,7 @@ include '../lang/ar.php';
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <style type="text/css">
@@ -39,8 +40,8 @@ include '../lang/ar.php';
 
 
 <header>
-<img src="../image/logo.png" style="width: 200px;height: 100px;float: right;" />
-<br/><br/>
+<img src="../image/logo.png" style="width: 120px;height: 60px;float: right;" />
+<br/>
 <div style="float: left;">
 <a href="../index.php?ar=0"><button style="	width: 40px;
 	height: 25px;
@@ -53,7 +54,7 @@ include '../lang/ar.php';
 	margin: 2px;
 	border : none;" name="en"><img src="../image/eng.png"/> </button></a>
 </div>
-<br/><br/><br/><br/>
+<br/><br/><br/>
 </header>
 
 <div id="list"> 
