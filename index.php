@@ -15,7 +15,7 @@ if(isset($_GET['ar'])){
 }
 
 if($_SESSION['lang'] == 'en'){
-include 'lang/en.php';
+	include 'lang/ar.php';	
 }else{
 include 'lang/ar.php';	
 }
@@ -34,7 +34,8 @@ include 'lang/ar.php';
 	<?php 
 	if($_SESSION['lang'] == 'en'){
 	?>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style-ar.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
 	<?php
 	}else{
 	?>
@@ -87,17 +88,56 @@ include 'header.php';
 
 <marquee style="background-color: #ffe;padding: 10px;margin-top: 10px;font-weight: bold;" direction="right"> <?php echo _WEB_SITE_NAME; ?> مرحبا بكم في موقع سوق التعدين نرحب بكل الاعضاء الجدد ونتمني لكم تجربه ممتعة ومفيدة معنا , اخر اخبار السوق اليوم متوفرة عروض ممتازة علي المعدات في صفحة المعدات , تراجع ملحوظ لاسعار الذهب اليوم مقابل الدولار مما يعني توقع انخفاضه الاسبوع المقبل , لقد وفرنا لاعضائنا الكرام مجموعة من الخدمات المتعلقة بالكهرباء والمكنيكا مع موظفين باعلي الخبراء للتقام بعمليات الصيانه من اجلكم ... للمذيد من الاخبار الرجار تصفح قسم الاخبار في الموقع   </marquee>
 
+
+
+
+
+
 <div class="row" style="margin: 2px;">
 <!-- <b><?php echo _DEPARTMENTS; ?></b> -->
 <br/>
-<a href="equipment.php">
-<div class="cat-long">
-	
-	<?php echo _EQUIPMENT; ?>
+
+<a href="#">
+<div class="cat">
+	<?php echo _Miningsites; ?>
 	<br/>
-	<img src="image/main/truck.png"/>
+	<img src="image/main/est.png"/>
 </div>
 </a>
+
+
+<a href="#">
+<div class="cat">
+	
+	<?php echo _Exploration
+; ?>
+	<img src="image/main/pro.png"/>
+
+</div>
+</a>
+
+
+<a href="#">
+<div class="cat">
+	<?php echo _Preparingcamps; ?>
+	<br/>
+	<img src="image/main/est.png"/>
+</div>
+</a>
+
+
+
+
+<a href="#">
+<div class="cat">
+	<?php echo _Miningcontracting
+; ?>
+	<br/>
+	<img src="image/main/est.png"/>
+</div>
+</a>
+
+
 
 <a href="#">
 <div class="cat">
@@ -107,12 +147,23 @@ include 'header.php';
 </div>
 </a>
 
-<a href="#">
-<div class="cat">
-	
-	<?php echo _Processing; ?>
-	<img src="image/main/pro.png"/>
 
+
+
+<a href="equipment.php">
+<div class="cat-long">
+	
+	<?php echo _EQUIPMENT; ?>
+	<br/>
+	<img src="image/main/truck.png"/>
+</div>
+</a>
+<a href="">
+<div class="cat-long">
+	
+	<?php echo _Maintenance; ?>
+	<br/>
+	<img src="image/main/truck.png"/>
 </div>
 </a>
 
@@ -120,8 +171,20 @@ include 'header.php';
 <a href="#">
 <div class="cat">
 	
-	<?php echo _miscellaneous; ?><br/>
-	<img src="image/main/def.png"/>
+	<?php echo _Consulting; ?>
+	<br/>
+	<img src="image/main/consol.png"/>
+
+</div>
+</a>
+
+
+<a href="employment.php">
+<div class="cat-long">
+	
+	<?php echo _employment; ?>
+	<br/>
+	<img src="image/main/emp.png"/>
 
 </div>
 </a>
@@ -136,35 +199,10 @@ include 'header.php';
 </div>
 </a>
 
-<a href="#">
-<div class="cat">
-	
-	<?php echo _Consulting; ?>
-	<br/>
-	<img src="image/main/consol.png"/>
-
-</div>
-</a>
 
 
-<a href="#">
-<div class="cat">
-	
-	<?php echo _Construction; ?>
-	<img src="image/main/const.png"/>
 
-</div>
-</a>
 
-<a href="employment.php">
-<div class="cat-long">
-	
-	<?php echo _employment; ?>
-	<br/>
-	<img src="image/main/emp.png"/>
-
-</div>
-</a>
 
 <a href="#">
 <div class="cat">
@@ -176,15 +214,6 @@ include 'header.php';
 </div>
 </a>
 
-<a href="#">
-<div class="cat">
-	
-
-	<?php echo _other; ?><br/>
-	<img src="image/main/other.png"/>
-
-</div>
-</a>
 
 </div>
 

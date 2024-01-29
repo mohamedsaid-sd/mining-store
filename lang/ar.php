@@ -22,8 +22,14 @@ define('_ABOUT', ' عنا ');
 // THE MAIN CAT
 define('_EQUIPMENT' , 'الآليات والمعدات');
 define('_DEPARTMENTS' , 'الاقسام');
-define('_Extraction', 'الاستخلاص');
-define('_Processing', 'المعالجات');
+define('_Extraction', 'المعالجة والاستخلاص');
+define('_Miningsites', 'مواقع التعدين.');
+define('_Exploration', 'الاستكشاف');
+define('_Preparingcamps', 'تجهيز المعسكرات');
+define('_Miningcontracting', ' مقاولات التعدين');
+define('_Maintenance', ' الصيانة والاسبيرات');
+
+
 define('_miscellaneous', 'متنوعة');
 define('_Consulting', 'الاستشارات');
 define('_Construction', 'مواقع البناء');
