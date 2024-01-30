@@ -106,7 +106,7 @@ include 'header.php';
 </a>
 
 
-<a href="#">
+<a href="Exploration.php">
 <div class="cat">
 	
 	<?php echo _Exploration
@@ -117,7 +117,7 @@ include 'header.php';
 </a>
 
 
-<a href="#">
+<a href="Preparingcamps.php">
 <div class="cat">
 	<?php echo _Preparingcamps; ?>
 	<br/>
@@ -128,7 +128,7 @@ include 'header.php';
 
 
 
-<a href="#">
+<a href="Miningcontracting.php">
 <div class="cat">
 	<?php echo _Miningcontracting
 ; ?>
