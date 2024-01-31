@@ -26,7 +26,7 @@ include 'lang/ar.php';
 <!DOCTYPE html>
 <html>
 <head>
-	<title> مقاولات التعدين </title>
+	<title>  مواقع التعدين </title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -66,59 +66,29 @@ include 'header.php';
 
 <div class="row" style="margin: 2px;font-weight: bold;">
 
-<a href="#">
-<div class="cat-long">
-الحفر
-	<br/>
-	<img src="image/contracting/dig.png"/>
-</div>
-</a>
 
 <a href="#">
-<div class="cat">
-التخريم
+<div class="cat-long">
+مواقع ترخيص نهائى
 	<br/>
-	<img src="image/contracting/machien.png"/>
+	<img src="image/sites/site1.png"/>
 </div>
 </a>
 
 <a href="#">
 <div class="cat-long">
-النقل
+مواقع ترخيص إبتدائى
 	<br/>
-	<img src="image/contracting/crins.png"/>
-
-</div>
-</a>
-
-<a href="#">
-<div class="cat">
-التفجير
-	<br/>
-	<img src="image/contracting/explo.png"/>
+	<img src="image/sites/site2.png"/>
 </div>
 </a>
 
 
 <a href="#">
-<div class="cat">
-	
-التشوين
-	<br/>
-	<img src="image/contracting/signal.png"/>
+<div class="cat-long">
 
-</div>
-</a>
-
-
-
-
-<a href="#">
-<div class="cat">
-	
-عمل الردميات
-	<br/>
-	<img src="image/contracting/sand.png"/>
+مواقع تحت الدراسة
+<img src="image/sites/site3.png"/>
 
 </div>
 </a>
@@ -126,22 +96,32 @@ include 'header.php';
 <a href="#">
 <div class="cat-long">
 	
-تجهيز الأحواض
-	<br/>
-	<img src="image/contracting/hood.png"/>
+مواقع تعديين اهلى
+	<img src="image/sites/site4.png"/>
 
 </div>
 </a>
 
 <a href="#">
-<div class="cat">
+<div class="cat-long">
 	
-توصيل خطوط المياه
-	<br/>
-	<img src="image/contracting/pipee.png"/>
+مواقع طواحين
+<br/>
+	<img src="image/sites/site6.png"/>
 
 </div>
 </a>
+
+
+<a href="#">
+<div class="cat-long">
+	
+مواقع خدمات عامة
+	<img src="image/sites/site5.png"/>
+
+</div>
+</a>
+
 
 </div>
 

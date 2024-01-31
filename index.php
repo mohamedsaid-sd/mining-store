@@ -97,11 +97,11 @@ include 'header.php';
 <!-- <b><?php echo _DEPARTMENTS; ?></b> -->
 <br/>
 
-<a href="#">
-<div class="cat">
+<a href="mining_sites.php">
+<div class="cat-long">
 	<?php echo _Miningsites; ?>
 	<br/>
-	<img src="image/main/est.png"/>
+	<img src="image/main/sites.png"/>
 </div>
 </a>
 
@@ -111,17 +111,17 @@ include 'header.php';
 	
 	<?php echo _Exploration
 ; ?>
-	<img src="image/main/pro.png"/>
+	<img src="image/main/explore.png"/>
 
 </div>
 </a>
 
 
 <a href="Preparingcamps.php">
-<div class="cat">
+<div class="cat-long">
 	<?php echo _Preparingcamps; ?>
 	<br/>
-	<img src="image/main/est.png"/>
+	<img src="image/main/camps.png"/>
 </div>
 </a>
 
@@ -133,7 +133,7 @@ include 'header.php';
 	<?php echo _Miningcontracting
 ; ?>
 	<br/>
-	<img src="image/main/est.png"/>
+	<img src="image/main/malta3.png"/>
 </div>
 </a>
 
@@ -143,7 +143,7 @@ include 'header.php';
 <div class="cat">
 	<?php echo _Extraction; ?>
 	<br/>
-	<img src="image/main/est.png"/>
+	<img src="image/main/pro&extr.png"/>
 </div>
 </a>
 
@@ -159,11 +159,11 @@ include 'header.php';
 </div>
 </a>
 <a href="">
-<div class="cat-long">
+<div class="cat">
 	
 	<?php echo _Maintenance; ?>
 	<br/>
-	<img src="image/main/truck.png"/>
+	<img src="image/main/spare.png"/>
 </div>
 </a>
 

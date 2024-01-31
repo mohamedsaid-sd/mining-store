@@ -78,7 +78,7 @@ include 'header.php';
 
 <a href="services/home.php">
 <div class="cat">
-	توفير الوقود
+	خدمات البيع
 	<br/>
 	<img src="image/services/service-fuell.png"/>
 </div>
@@ -87,8 +87,7 @@ include 'header.php';
 
 <a href="#">
 <div class="cat-long">
-	
-	عقارات
+	خدمات الشراء
 	<br/>
 	<img src="image/services/services.png"/>
 
@@ -97,7 +96,7 @@ include 'header.php';
 
 <a href="#">
 <div class="cat-long">
-	تأجير السيارات
+	خدمات التاجير
 	<br/>
 	<img src="image/services/services.png"/>
 </div>
@@ -108,32 +107,11 @@ include 'header.php';
 
 <a href="#">
 <div class="cat">
-	
-	أجهزة تتبع
-	<br/>
-	<img src="image/services/services.png"/>
-
-</div>
-</a>
-
-<a href="#">
-<div class="cat-long">
-	
-	الاتصالات والإنترنت
-	<br/>
-	<img src="image/services/services.png"/>
-
-</div>
-</a>
-
-<a href="#">
-<div class="cat">
-	خدمات الاعلانات
+	الإثتثمار
 	<br/>
 	<img src="image/services/services.png"/>
 </div>
 </a>
-
 
 </div>
 

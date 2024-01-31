@@ -67,27 +67,27 @@ include 'header.php';
 <div class="row" style="margin: 2px;font-weight: bold;">
 
 
-<a href="equipment/trucks.php">
-<div class="cat-long">
+<a href="#">
+<div class="cat">
 رسم الخرائط
 	<br/>
-	<img src="image/equipment/truck.png"/>
+	<img src="image/camps/map.png"/>
 </div>
 </a>
 
-<a href="equipment/heavy.php">
+<a href="#">
 <div class="cat-long">
 تأسيس المباني	<br/>
-	<img src="image/equipment/heavy.png"/>
+	<img src="image/camps/const.png"/>
 </div>
 </a>
 
 
 <a href="#">
-<div class="cat-long">
+<div class="cat">
 	
 توفير الكرفانات
-<img src="image/equipment/spare.png"/>
+<img src="image/camps/carfan.png"/>
 
 </div>
 </a>
@@ -96,7 +96,7 @@ include 'header.php';
 <div class="cat-long">
 	
 تأسيس الورش	
-<img src="image/equipment/accessores.png"/>
+<img src="image/camps/workshop.png"/>
 
 </div>
 </a>
@@ -105,17 +105,26 @@ include 'header.php';
 <div class="cat">
 	
 التسوير<br/>
-	<img src="image/equipment/transport.png"/>
+	<img src="image/camps/map.png"/>
 
 </div>
 </a>
 
 
 <a href="#">
-<div class="cat">
+<div class="cat-long">
 	
 تعبيد الطرق الداخلية	
-<img src="image/equipment/generators.png"/>
+<img src="image/camps/road.png"/>
+
+</div>
+</a>
+
+<a href="#">
+<div class="cat">
+	
+الأمن والسلامة<br/>
+	<img src="image/camps/saf.png"/>
 
 </div>
 </a>
@@ -123,17 +132,8 @@ include 'header.php';
 <a href="#">
 <div class="cat-long">
 	
-الأمن والسلامة<br/>
-	<img src="image/equipment/maintenance.png"/>
-
-</div>
-</a>
-
-<a href="#">
-<div class="cat">
-	
 التوصيلات الكهربائية
-<img src="image/main/other.png"/>
+<img src="image/camps/silk.png"/>
 
 </div>
 </a>
@@ -143,7 +143,7 @@ include 'header.php';
 <div class="cat">
 	
 توصيلات المياه والصرف الصحي
-<img src="image/main/other.png"/>
+<img src="image/camps/pipee.png"/>
 
 </div>
 </a>
@@ -153,7 +153,7 @@ include 'header.php';
 <div class="cat">
 	
 تخزين المياه والجاز
-<img src="image/main/other.png"/>
+<img src="image/camps/water.png"/>
 
 </div>
 </a>
@@ -163,7 +163,7 @@ include 'header.php';
 <div class="cat">
 	
 الإنترنت والشبكات
-<img src="image/main/other.png"/>
+<img src="image/camps/internet.png"/>
 
 </div>
 </a>

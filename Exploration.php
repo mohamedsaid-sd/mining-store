@@ -67,16 +67,16 @@ include 'header.php';
 <div class="row" style="margin: 2px;font-weight: bold;">
 
 
-<a href="equipment/trucks.php">
+<a href="#">
 <div class="cat-long">
 صور الأقمار الصناعية
 	<br/>
-	<img src="image/equipment/truck.png"/>
+	<img src="image/exploration/satlite.png"/>
 </div>
 </a>
 
-<a href="equipment/heavy.php">
-<div class="cat-long">
+<a href="#">
+<div class="cat">
 البحث الأولي
 	<br/>
 	<img src="image/equipment/heavy.png"/>
@@ -88,16 +88,16 @@ include 'header.php';
 <div class="cat-long">
 	
 أخذ العينات	
-<img src="image/equipment/spare.png"/>
+<img src="image/exploration/sample.png"/>
 
 </div>
 </a>
 
 <a href="#">
-<div class="cat-long">
+<div class="cat">
 	
 تحليل العينات
-	<img src="image/equipment/accessores.png"/>
+	<img src="image/exploration/anliys.png"/>
 
 </div>
 </a>
@@ -107,7 +107,7 @@ include 'header.php';
 	
 حفر الخنادق	
 <br/>
-	<img src="image/equipment/transport.png"/>
+	<img src="image/exploration/digg.png"/>
 
 </div>
 </a>
@@ -117,7 +117,7 @@ include 'header.php';
 <div class="cat">
 	
 حفر ال RC
-	<img src="image/equipment/generators.png"/>
+	<img src="image/exploration/dig2.png"/>
 
 </div>
 </a>
@@ -126,7 +126,7 @@ include 'header.php';
 <div class="cat-long">
 	
 حفر ال CORE.	<br/>
-	<img src="image/equipment/maintenance.png"/>
+	<img src="image/exploration/dig1.png"/>
 
 </div>
 </a>
@@ -134,16 +134,18 @@ include 'header.php';
 <a href="#">
 <div class="cat">
 	
-التحليل الجيولوجي للمناجم	<img src="image/main/other.png"/>
+التحليل الجيولوجي للمناجم	
+<img src="image/exploration/gelogy.png"/>
 
 </div>
 </a>
 
 
 <a href="#">
-<div class="cat">
+<div class="cat-long">
 	
-رسم خرائط المناجم<img src="image/main/other.png"/>
+رسم خرائط المناجم
+<img src="image/exploration/map.png"/>
 
 </div>
 </a>
@@ -153,7 +155,7 @@ include 'header.php';
 <div class="cat">
 	
 التقارير الفنية
-<img src="image/main/other.png"/>
+<img src="image/exploration/reports.png"/>
 
 </div>
 </a>
