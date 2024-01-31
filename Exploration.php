@@ -62,13 +62,14 @@ include 'header.php';
 <a href=""> <?php echo _ABOUT; ?> </a> 
 </div> -->
 
-<marquee style="background-color: #ffe;padding: 10px;margin-top: 10px;font-weight: bold;" direction="right"> <?php echo _WEB_SITE_NAME; ?> مرحبا بكم في موقع سوق التعدين نرحب بكل الاعضاء الجدد ونتمني لكم تجربه ممتعة ومفيدة معنا , اخر اخبار السوق اليوم متوفرة عروض ممتازة علي المعدات في صفحة المعدات , تراجع ملحوظ لاسعار الذهب اليوم مقابل الدولار مما يعني توقع انخفاضه الاسبوع المقبل , لقد وفرنا لاعضائنا الكرام مجموعة من الخدمات المتعلقة بالكهرباء والمكنيكا مع موظفين باعلي الخبراء للتقام بعمليات الصيانه من اجلكم ... للمذيد من الاخبار الرجار تصفح قسم الاخبار في الموقع   </marquee>
+<br/>
+<h4> الإستكشاف </h4>
 
 <div class="row" style="margin: 2px;font-weight: bold;">
 
 
 <a href="#">
-<div class="cat-long">
+<div class="cat">
 صور الأقمار الصناعية
 	<br/>
 	<img src="image/exploration/satlite.png"/>
@@ -85,7 +86,7 @@ include 'header.php';
 
 
 <a href="#">
-<div class="cat-long">
+<div class="cat">
 	
 أخذ العينات	
 <img src="image/exploration/sample.png"/>
@@ -123,7 +124,7 @@ include 'header.php';
 </a>
 
 <a href="#">
-<div class="cat-long">
+<div class="cat">
 	
 حفر ال CORE.	<br/>
 	<img src="image/exploration/dig1.png"/>
@@ -142,7 +143,7 @@ include 'header.php';
 
 
 <a href="#">
-<div class="cat-long">
+<div class="cat">
 	
 رسم خرائط المناجم
 <img src="image/exploration/map.png"/>

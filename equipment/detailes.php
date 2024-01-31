@@ -48,28 +48,27 @@ include '../lang/ar.php';
 </style>
 <body>
 
-<header>
-<img src="../image/logo.png" style="width: 120px;height: 60px;float: right;" />
-<br/>
-<div style="float: left;">
-<a href="../index.php?ar=0"><button style="	width: 40px;
-	height: 25px;
-	padding: 0px;
-	margin: 2px;
-	border : none;" name="ar"><img src="../image/ar.png"/></button></a>
-<a href="../index.php?en=0"><button style="	width: 40px;
-	height: 25px;
-	padding: 0px;
-	margin: 2px;
-	border : none;" name="en"><img src="../image/eng.png"/> </button></a>
+<section id="header" style="background-color: #123;">
+<div style="padding: 5px;">
+  <span style="padding: 5px;">
+    <a href="../index.php"><img src="../image/logo.png" style="width: 90px;height: 60px;float: right;margin: 10px;" /></a>
+  </span>
+  <div style="text-align: right; padding: 5px; " class="col-6">
+    <button style="width: 90px;padding: 5px; border-radius: 20px;background-color: #123;border : solid 1px gold; color: gold; "> Register </button>
+     <a href="login.php"><button style="width: 90px;padding: 5px; border-radius: 20px;background-color: gold;border : solid 1px gold; color: #123; "> login </button> </a>
+  <span style="float: left;color: gold;font-size: 15px;font-weight: bold;">
+     <a style="color: gold;" href="../index.php?en=0"> Eng </a> &nbsp | &nbsp
+     <a style="color: gold;" href="../index.php?ar=0"> Ara </a>
+  </span>
+  </div>
 </div>
-<br/><br/><br/>
-</header>
+<hr style="background-color: gold;height: 5px; border:none;box-shadow: 2px 2px 2px #333;" />
+</section>
 
+<br/>
+<h4><?php echo _detailes; ?></h4>
 
 <div class="row" style="margin: 2px;font-weight: bold;">
-<br/>
-<?php echo _detailes; ?>
 <br/>
 
 <div class="detailes">
@@ -182,17 +181,17 @@ include '../lang/ar.php';
 <h3> التعليقات </h3>
 
 <h4> - Mohamed Said </h4>
- <div style="font-size: 15px;background-color: #fff;width: 98%;padding: 10px;border-radius: 10px;font-style: normal;">
+ <div style="font-size: 15px;background-color: #fff;width: 98%;padding: 10px;border-radius: 10px;font-style: normal;color: #000;">
  	 المنتج رائع وجميل ومن السهل التعامل مع البائع
  </div>
 
  <h4> - Ahmed Abdo </h4>
- <div style="font-size: 15px;background-color: #fff;width: 98%;padding: 10px;border-radius: 10px;font-style: normal;">
+ <div style="font-size: 15px;background-color: #fff;width: 98%;padding: 10px;border-radius: 10px;font-style: normal;color: #000;">
  	 هل يوجد نفس المنتج مع سنة صنع 2010
  </div>
 
   <h4> - Rania aWad </h4>
- <div style="font-size: 15px;background-color: #fff;width: 98%;padding: 10px;border-radius: 10px;font-style: normal;">
+ <div style="font-size: 15px;background-color: #fff;width: 98%;padding: 10px;border-radius: 10px;font-style: normal;color: #000;">
  	 I ask for it alraey and it's ready 
  </div>
 

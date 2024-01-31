@@ -60,18 +60,20 @@ include 'header.php';
 
 </div>
 
+<br/>
+<h4> <?php echo _SERVICES; ?> </h4>
 
+
+<br/>
 
 <div class="row" style="margin: 2px;font-weight: bold;">
-<?php echo _SERVICES; ?>
-<br/>
 
 <a href="services/home.php">
 <div class="cat" style="text-align: center;">
 <br/>
 <br/>
 مشاهدة جميع الاعلانات 19
-<br/>	
+<br/>	<br/><br/>
 </div>
 </a>
 
@@ -86,7 +88,7 @@ include 'header.php';
 
 
 <a href="#">
-<div class="cat-long">
+<div class="cat">
 	خدمات الشراء
 	<br/>
 	<img src="image/services/services.png"/>
@@ -95,7 +97,7 @@ include 'header.php';
 </a>
 
 <a href="#">
-<div class="cat-long">
+<div class="cat">
 	خدمات التاجير
 	<br/>
 	<img src="image/services/services.png"/>
@@ -107,7 +109,7 @@ include 'header.php';
 
 <a href="#">
 <div class="cat">
-	الإثتثمار
+	الإستثمار
 	<br/>
 	<img src="image/services/services.png"/>
 </div>

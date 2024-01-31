@@ -29,9 +29,7 @@ include 'lang/ar.php';
 	<title> <?php echo _HOME; ?> </title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-	<?php 
+		<?php 
 	if($_SESSION['lang'] == 'en'){
 	?>
 	<link rel="stylesheet" type="text/css" href="css/style-ar.css">
@@ -43,22 +41,11 @@ include 'lang/ar.php';
 	<?php
 	}
 	?>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+
 
 </head>
-<style type="text/css">
-form{
-	padding: 5px;
-}
-
-#log{
-	padding: 5px;
-	vertical-align: center;
-}
-
-#log input{
-	margin-top: 5px;
-}
-</style>
 <body>
 
 <?php 
@@ -86,47 +73,40 @@ include 'header.php';
 <a href=""> <?php echo _ABOUT; ?> </a> 
 </div> -->
 
+<br/>
+
 <marquee style="background-color: #ffe;padding: 10px;margin-top: 10px;font-weight: bold;" direction="right"> <?php echo _WEB_SITE_NAME; ?> مرحبا بكم في موقع سوق التعدين نرحب بكل الاعضاء الجدد ونتمني لكم تجربه ممتعة ومفيدة معنا , اخر اخبار السوق اليوم متوفرة عروض ممتازة علي المعدات في صفحة المعدات , تراجع ملحوظ لاسعار الذهب اليوم مقابل الدولار مما يعني توقع انخفاضه الاسبوع المقبل , لقد وفرنا لاعضائنا الكرام مجموعة من الخدمات المتعلقة بالكهرباء والمكنيكا مع موظفين باعلي الخبراء للتقام بعمليات الصيانه من اجلكم ... للمذيد من الاخبار الرجار تصفح قسم الاخبار في الموقع   </marquee>
 
 
 
-
-
-
-<div class="row" style="margin: 2px;">
-<!-- <b><?php echo _DEPARTMENTS; ?></b> -->
 <br/>
+<h4> <?php echo _DEPARTMENTS; ?> </h4>
+
+<div class="row" style="margin: 2px;font-weight: bold;">
 
 <a href="mining_sites.php">
-<div class="cat-long">
+<div class="cat">
 	<?php echo _Miningsites; ?>
 	<br/>
 	<img src="image/main/sites.png"/>
 </div>
 </a>
 
-
 <a href="Exploration.php">
-<div class="cat">
-	
-	<?php echo _Exploration
-; ?>
+<div class="cat">	
+	<?php echo _Exploration; ?>
 	<img src="image/main/explore.png"/>
 
 </div>
 </a>
 
-
 <a href="Preparingcamps.php">
-<div class="cat-long">
+<div class="cat">
 	<?php echo _Preparingcamps; ?>
 	<br/>
 	<img src="image/main/camps.png"/>
 </div>
 </a>
-
-
-
 
 <a href="Miningcontracting.php">
 <div class="cat">
@@ -137,8 +117,6 @@ include 'header.php';
 </div>
 </a>
 
-
-
 <a href="#">
 <div class="cat">
 	<?php echo _Extraction; ?>
@@ -147,99 +125,63 @@ include 'header.php';
 </div>
 </a>
 
-
-
-
 <a href="equipment.php">
-<div class="cat-long">
-	
+<div class="cat">	
 	<?php echo _EQUIPMENT; ?>
 	<br/>
 	<img src="image/main/truck.png"/>
 </div>
 </a>
+
 <a href="">
 <div class="cat">
-	
 	<?php echo _Maintenance; ?>
 	<br/>
 	<img src="image/main/spare.png"/>
 </div>
 </a>
 
-
 <a href="#">
 <div class="cat">
-	
 	<?php echo _Consulting; ?>
 	<br/>
 	<img src="image/main/consol.png"/>
-
 </div>
 </a>
 
 
 <a href="employment.php">
-<div class="cat-long">
-	
+<div class="cat">
 	<?php echo _employment; ?>
 	<br/>
 	<img src="image/main/emp.png"/>
-
 </div>
 </a>
 
 <a href="services.php">
 <div class="cat">
-	
 	<?php echo _SERVICES; ?>
 	<br/>
 	<img src="image/main/services.png"/>
-
 </div>
 </a>
-
-
-
-
-
 
 <a href="#">
 <div class="cat">
-	
 	<?php echo _procedures; ?>
 	<br/>
 	<img src="image/main/prod.png"/>
-
 </div>
 </a>
 
 
 </div>
 
-
-
-<!-- <div> 
-
-<b> <?php echo _MAIN; ?> </b>
-<a href="#"> الآليات والمعدات </a> -
-<a href="#"> الاستخلاص </a> -
-<a href="#"> المعالجة </a> -
-<a href="#"> متنوعة </a> -
-<a href="#"> الخدمات </a> -
-<a href="#"> الاستشارات </a> -
-<a href="#"> المواقع </a> -
-<a href="#"> التوظيف </a> -
-<a href="#"> الاجراءات </a>
- 
-</div> -->
-
-<br/><br/>
+<br/><br/><br/><br/>
 
 
 
 <?php include 'footer.php'; ?>
-
 
 
 </body>

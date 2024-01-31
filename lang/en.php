@@ -20,7 +20,7 @@ define('_CONTACT', 'Contact Us');
 define('_ABOUT', 'About Us');
 
 // THE MAIN CAT
-define('_DEPARTMENTS' , 'Departments');
+define('_DEPARTMENTS' , 'Main Departsment');
 define('_EQUIPMENT' , 'Equipment');
 define('_Extraction', 'Extraction');
 define('_Processing', 'Processing');

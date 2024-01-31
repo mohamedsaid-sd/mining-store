@@ -29,12 +29,11 @@ include 'lang/ar.php';
 	<title> <?php echo _EQUIPMENT; ?> </title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-	<?php 
+		<?php 
 	if($_SESSION['lang'] == 'en'){
 	?>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style-ar.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
 	<?php
 	}else{
 	?>
@@ -42,6 +41,9 @@ include 'lang/ar.php';
 	<?php
 	}
 	?>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+
 </head>
 <style type="text/css">
 
@@ -62,14 +64,16 @@ include 'header.php';
 <a href=""> <?php echo _ABOUT; ?> </a> 
 </div> -->
 
-<marquee style="background-color: #ffe;padding: 10px;margin-top: 10px;font-weight: bold;" direction="right"> <?php echo _WEB_SITE_NAME; ?> مرحبا بكم في موقع سوق التعدين نرحب بكل الاعضاء الجدد ونتمني لكم تجربه ممتعة ومفيدة معنا , اخر اخبار السوق اليوم متوفرة عروض ممتازة علي المعدات في صفحة المعدات , تراجع ملحوظ لاسعار الذهب اليوم مقابل الدولار مما يعني توقع انخفاضه الاسبوع المقبل , لقد وفرنا لاعضائنا الكرام مجموعة من الخدمات المتعلقة بالكهرباء والمكنيكا مع موظفين باعلي الخبراء للتقام بعمليات الصيانه من اجلكم ... للمذيد من الاخبار الرجار تصفح قسم الاخبار في الموقع   </marquee>
 
-<div class="row" style="margin: 2px;font-weight: bold;">
-<?php echo _EQUIPMENT; ?>
+
+
+<h4><?php echo _EQUIPMENT; ?></h4>
 <br/>
 
+<div class="row" style="margin: 2px;font-weight: bold;">
+
 <a href="equipment/trucks.php">
-<div class="cat-long">
+<div class="cat">
 	
 	<?php echo _TRUCKS; ?>
 	<br/>
@@ -78,7 +82,7 @@ include 'header.php';
 </a>
 
 <a href="equipment/heavy.php">
-<div class="cat-long">
+<div class="cat">
 	<?php echo _HEAVY; ?>
 	<br/>
 	<img src="image/equipment/heavy.png"/>
@@ -87,7 +91,7 @@ include 'header.php';
 
 
 <a href="#">
-<div class="cat-long">
+<div class="cat">
 	
 	<?php echo _ASSBEER; ?><br/>
 	<img src="image/equipment/spare.png"/>
@@ -96,7 +100,7 @@ include 'header.php';
 </a>
 
 <a href="#">
-<div class="cat-long">
+<div class="cat">
 	
 	<?php echo _ACCESSORY; ?><br/>
 	<img src="image/equipment/accessores.png"/>
@@ -125,7 +129,7 @@ include 'header.php';
 </a>
 
 <a href="#">
-<div class="cat-long">
+<div class="cat">
 	
 	<?php echo _MAINTENCE; ?>
 	<br/>
@@ -139,7 +143,7 @@ include 'header.php';
 	
 
 	<?php echo _other; ?><br/>
-	<img src="image/main/other.png"/>
+	<img src="image/main/truck.png"/>
 
 </div>
 </a>

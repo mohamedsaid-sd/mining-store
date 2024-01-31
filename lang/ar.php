@@ -21,7 +21,7 @@ define('_ABOUT', ' عنا ');
 
 // THE MAIN CAT
 define('_EQUIPMENT' , 'الآليات والمعدات');
-define('_DEPARTMENTS' , 'الاقسام');
+define('_DEPARTMENTS' , 'الاقسام الرئيسية');
 define('_Extraction', 'المعالجة والاستخلاص');
 define('_Miningsites', 'مواقع التعدين.');
 define('_Exploration', 'الاستكشاف');

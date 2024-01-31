@@ -1,3 +1,18 @@
+body{
+	background:linear-gradient(to bottom , #123 10%, #fff 100%);
+	margin-bottom: 30px;
+	color: #fff;
+}
+
+
+#topbar{
+	background-color: red;
+}
+
+#topbar i{
+	color: red;
+}
+
 #bottom{
 	display: none;
 }
@@ -6,14 +21,9 @@ html{
 	direction: ltr;
 }
 
-body{
-	background-color: #ccc;
-	margin-bottom: 30px;
-}
-
-/*The Desigin Of the header*/
-header{
-	background-color: #123;
+body h4{
+	color: #fff;
+	padding: 10px;
 }
 
 header button , header img {
@@ -50,8 +60,18 @@ header button , header img {
 }
 
 .cat{
-			text-align: start;
-		unicode-bidi: plaintext;
+	padding: 1%;
+	width: 16%;
+	text-align: center;
+	color: #000;
+	background-color: #fff;
+	margin:1%;
+	border-radius: 10px;
+	font-size: 15px;
+	box-shadow: 0px 5px 1px 0px gold;
+	float: right;
+/*	text-align: start;
+	unicode-bidi: plaintext;
 	color: #000;
 	font-weight: bold;
 	font-size: 15px;
@@ -60,10 +80,11 @@ header button , header img {
 	margin: 11px;
 	border-radius: 10px;
 	float: left;
-	width: 15%;
+	width: 50%;
 	height: 100px;
-	box-shadow: 2px 2px 5px gray;
+	box-shadow: 2px 2px 5px white;*/
 }
+
 
 .cat-long{
 			text-align: start;
@@ -206,6 +227,11 @@ footer{
 	font-style: oblique;
 }
 
+.detailes .left .info h4{
+	font-size: 15px;
+	color: #000;
+}
+
 input{
 	text-align: center;
 }
@@ -271,11 +297,11 @@ footer{
 }
 
 #bottom a:hover{
-	color: rgb(222, 174, 84);
+	color: gold;
 }
 
 #bottom a:active{
-	color: rgb(222, 174, 84);
+	color: gold;
 }
 
 

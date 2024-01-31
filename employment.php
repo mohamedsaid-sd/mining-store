@@ -61,14 +61,16 @@ include 'header.php';
 
 </div>
 
+<br/>
+<h4><?php echo _employment; ?></h4>
 
 
 <div class="row" style="margin: 2px;font-weight: bold;">
-<?php echo _employment; ?>
-<br/>
+
+
 
 <a href="employment/home.php">
-<div class="cat" style="text-align: center;">
+<div class="cat-long" style="text-align: center;">
 <br/>
 <br/>
 مشاهدة جميع الاعلانات 200
@@ -85,7 +87,7 @@ include 'header.php';
 </a>
 
 <a href="employment/home.php">
-<div class="cat">
+<div class="cat-long">
 	الهندسة
 	<br/>
 	<img src="image/job/job.png"/>
@@ -94,7 +96,7 @@ include 'header.php';
 
 
 <a href="#">
-<div class="cat">
+<div class="cat-long">
 	
 	التسوييق والعلاقات العامة
 	<br/>
@@ -115,7 +117,7 @@ include 'header.php';
 
 
 <a href="#">
-<div class="cat">
+<div class="cat-long">
 	
 	الادارة
 	<br/>
@@ -126,16 +128,14 @@ include 'header.php';
 
 <a href="#">
 <div class="cat-long">
-	
 	التصميم والفنوان
 	<br/>
 	<img src="image/job/job.png"/>
-
 </div>
 </a>
 
 <a href="#">
-<div class="cat">
+<div class="cat-long">
 	الرعاية الصحية والتمريض
 	<br/>
 	<img src="image/job/job.png"/>
@@ -143,7 +143,7 @@ include 'header.php';
 </a>
 
 <a href="#">
-<div class="cat">
+<div class="cat-long">
 	القيادة والتوصيل
 	<br/>
 	<img src="image/job/job.png"/>
@@ -159,7 +159,7 @@ include 'header.php';
 </a>
 
 <a href="#">
-<div class="cat">
+<div class="cat-long">
 	وظائف المربيات
 	<br/>
 	<img src="image/job/job.png"/>
@@ -167,7 +167,7 @@ include 'header.php';
 </a>
 
 <a href="#">
-<div class="cat">
+<div class="cat-long">
 	القيادة والتوصيل
 	<br/>
 	<img src="image/job/job.png"/>
@@ -183,7 +183,7 @@ include 'header.php';
 </a>
 
 <a href="#">
-<div class="cat">
+<div class="cat-long">
 	وظائف التصنيع
 	<br/>
 	<img src="image/job/job.png"/>
@@ -199,7 +199,7 @@ include 'header.php';
 </a>
 
 <a href="#">
-<div class="cat">
+<div class="cat-long">
 	التعليم والتدريب
 	<br/>
 	<img src="image/job/job.png"/>
@@ -215,7 +215,7 @@ include 'header.php';
 </a>
 
 <a href="#">
-<div class="cat">
+<div class="cat-long">
 	اللوجستيات
 	<br/>
 	<img src="image/job/job.png"/>
@@ -223,7 +223,7 @@ include 'header.php';
 </a>
 
 <a href="#">
-<div class="cat">
+<div class="cat-long">
 	الضيافة والاستقبال
 	<br/>
 	<img src="image/job/job.png"/>
@@ -239,7 +239,7 @@ include 'header.php';
 </a>
 
 <a href="#">
-<div class="cat">
+<div class="cat-long">
 	الإعلام والصحافة
 	<br/>
 	<img src="image/job/job.png"/>
@@ -247,7 +247,7 @@ include 'header.php';
 </a>
 
 <a href="#">
-<div class="cat">
+<div class="cat-long">
 	المبيعات والتجزئة
 	<br/>
 	<img src="image/job/job.png"/>
@@ -263,17 +263,16 @@ include 'header.php';
 </a>
 
 <a href="#">
-<div class="cat">
+<div class="cat-long">
 	وظائف اخرى
 	<br/>
-	<img src="image/main/other.png"/>
+	<img src="image/job/job.png"/>
 </div>
 </a>
 
 </div>
 
 
-<br/>
 
 <?php include 'footer.php'; ?>
 
