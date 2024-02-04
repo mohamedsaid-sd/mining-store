@@ -79,17 +79,19 @@ b{
 <hr style="background-color: gold;height: 5px; border:none;box-shadow: 2px 2px 2px #333;" />
 </section>
 
+
+
+ <h4>التوظيف</h4>
+<br/>
+
 <div id="list"> 
 <?php echo _LANGMENT; ?>
 <a href="#"> وظائف مطلوبة </a> 
 <a href="#"> وظائف معروضة </a> 
-
 </div>
 
 <div class="row" style="margin: 2px;font-weight: bold;">
 
- <?php echo _jobs; ?>
-<br/>
 
 <a href="detailes.php">
 <div class="emp-card">

@@ -63,11 +63,11 @@ header button , header img {
 	padding: 1%;
 	width: 16%;
 	text-align: center;
-	color: #000;
+	color: #333;
 	background-color: #fff;
 	margin:1%;
 	border-radius: 10px;
-	font-size: 15px;
+	font-size: 13px;
 	box-shadow: 0px 5px 1px 0px gold;
 	float: right;
 /*	text-align: start;
@@ -238,16 +238,17 @@ input{
 
 
 .emp-card{
-	background-color: #fff;
+	background-color: red;
 	text-align: start;
 	width: 21%;
 	margin: 1%;
 	padding: 1%;
-	box-shadow: 1px 2px 2px gray;
 	border-radius: 10px;
 	height: 160px;
 	float: left;
+	box-shadow: 1px 2px 3px red;
 }
+
 
 .emp-card img{
  width: 25%;

@@ -46,7 +46,7 @@ include '../lang/ar.php';
 <style type="text/css">
 
 </style>
-<body>
+<body style="background-color: #fff;">
 
 <section id="header" style="background-color: #123;">
 <div style="padding: 5px;">
@@ -101,6 +101,8 @@ include '../lang/ar.php';
 <!--The Favorite -->
 
 </p>
+
+<a href="form.php"><button style="width: 100%;text-align: center;padding: 10px;" class="btn btn-success"> قدم علي الوظيفة </button></a>
 
 </div>
 

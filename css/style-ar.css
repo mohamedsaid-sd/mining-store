@@ -1,7 +1,19 @@
+/*adding fonts to the web site*/
+@font-face{
+	font-family: ando-normal;
+	src : url('../assets/fonts/ando-normal.ttf');
+}
+
+@font-face{
+	font-family: ando-bold;
+	src : url('../assets/fonts/ando-bold.ttf');
+}
+
 body{
 	background:linear-gradient(to bottom , #123 10%, #fff 100%);
 	margin-bottom: 30px;
 	color: #fff;
+	font-family: 'ando-bold';
 }
 
 #bottom{
@@ -54,13 +66,14 @@ header button , header img {
 	padding: 1%;
 	width: 16%;
 	text-align: center;
-	color: #000;
+	color: #333;
 	background-color: #fff;
 	margin:1%;
 	border-radius: 10px;
-	font-size: 15px;
+	font-size: 13px;
 	box-shadow: 0px 5px 1px 0px rgb(255, 187, 1);
 	float: right;
+	font-family: 'ando-bold';
 	/*text-align: start;
 	unicode-bidi: plaintext;
 	color: #000;
@@ -230,15 +243,23 @@ input{
 
 
 .emp-card{
+	font-size: 15px;
 	background-color: #fff;
 	text-align: start;
 	width: 21%;
 	margin: 1%;
 	padding: 1%;
-	box-shadow: 1px 2px 2px gray;
 	border-radius: 10px;
 	height: 160px;
 	float: right;
+    box-shadow: 1px 2px 2px gold;
+}
+
+
+/* the text of the card */
+.emp-card p{
+  font-size: 15px;
+  color: #000;
 }
 
 .emp-card img{
@@ -329,8 +350,8 @@ input{
 }
 
 .cat {
-	width: 44%;
-	margin:2%;
+	width: 92%;
+	margin:3%;
 	padding: 1%;
 }
 
@@ -339,7 +360,8 @@ input{
 }
 
 .emp-card{
-	width: 95%;
+	width: 93%;
+	margin: 2%;
 }
 
 }
