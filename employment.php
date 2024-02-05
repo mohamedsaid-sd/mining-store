@@ -76,7 +76,7 @@ include 'header.php';
 </div>
 </a>
 
-<a href="employment/home.php">
+<a href="employment/home.php?id=all">
 <div class="cat">
 	الهندسة
 	<br/>
@@ -84,7 +84,7 @@ include 'header.php';
 </div>
 </a>
 
-<a href="employment/home.php">
+<a href="employment/home.php?id=all">
 <div class="cat">
 	التسوييق والعلاقات العامة
 	<br/>
@@ -93,7 +93,7 @@ include 'header.php';
 </a>
 
 
-<a href="equipment/heavy.php">
+<a href="equipment/heavy.php?id=all">
 <div class="cat">
 	تقنية المعلومات
 	<br/>
@@ -102,7 +102,7 @@ include 'header.php';
 </a>
 
 
-<a href="employment/home.php">
+<a href="employment/home.php?id=all">
 <div class="cat">
 	الوظائف القانونية
 	<br/>

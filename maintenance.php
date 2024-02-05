@@ -64,7 +64,7 @@ include 'header.php';
 <div class="row" style="margin: 2px;font-weight: bold;">
 
 
-<a href="consulatations/home.php">
+<a href="">
 <div class="cat">
 مكنيكا
 	<br/>

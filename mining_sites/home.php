@@ -78,7 +78,7 @@ include '../lang/ar.php';
 <div class="row" style="margin: 2px;font-weight: bold;">
 
 <div class="service_card">
-<span class="fav"><i class="icon-heart"></i></span>
+
 <img src="../image/lands/images (1).jfif">
 <span class="loc"> 
 <i class="icon-map-marker"></i> الخرطوم  
@@ -88,7 +88,7 @@ include '../lang/ar.php';
 </div>
 
 <div class="service_card">
-<span class="fav"><i class="icon-heart-empty"></i></span>
+
 <img src="../image/services/tran.jpeg">
 <span class="loc"> 
 <i class="icon-map-marker"></i> الخرطوم  
@@ -98,7 +98,7 @@ include '../lang/ar.php';
 </div>
 
 <div class="service_card">
-<span class="fav"><i class="icon-heart-empty"></i></span>
+
 <img src="../image/lands/images.jfif">
 <span class="loc"> 
 <i class="icon-map-marker"></i> الخرطوم  
@@ -108,7 +108,7 @@ include '../lang/ar.php';
 </div>
 
 <div class="service_card">
-<span class="fav"><i class="icon-heart-empty"></i></span>
+
 <img src="../image/lands/preview_6.jpg">
 <span class="loc"> 
 <i class="icon-map-marker"></i> الخرطوم  
@@ -118,7 +118,7 @@ include '../lang/ar.php';
 </div>
 
 <div class="service_card">
-<span class="fav"><i class="icon-heart-empty"></i></span>
+
 <img src="../image/logo.png">
 <span class="loc"> 
 <i class="icon-map-marker"></i> الخرطوم  
