@@ -80,40 +80,34 @@ include 'header.php';
 
 <a href="services/home.php">
 <div class="cat">
-	خدمات البيع
+	خدمات المقاولات
 	<br/>
-	<img src="image/services/service-fuell.png"/>
+	<img src="image/services/servifce-fuell.png"/>
 </div>
 </a>
 
 
 <a href="#">
 <div class="cat">
-	خدمات الشراء
+	خدمات الترجمة
 	<br/>
-	<img src="image/services/services.png"/>
+	<img src="image/services/tan.jp"/>
 
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-	خدمات التاجير
+	خدمات قانونية
 	<br/>
-	<img src="image/services/services.png"/>
+	<img src="image/services/servifces.png"/>
 </div>
 </a>
 
 
 
 
-<a href="#">
-<div class="cat">
-	الإستثمار
-	<br/>
-	<img src="image/services/services.png"/>
-</div>
-</a>
+
 
 </div>
 

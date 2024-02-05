@@ -70,7 +70,7 @@ include 'header.php';
 <div class="row" style="margin: 2px;font-weight: bold;">
 
 
-<a href="#">
+<a href="mining_sitesinfo.php">
 <div class="cat">
 مواقع ترخيص نهائى
 	<br/>

@@ -145,6 +145,24 @@ textarea{
 <div class="input-item">
 <select>
 	<option value="" selected disabled> -- اختار المدينة -- </option>
+               <option value="ولاية الخرطوم">ولاية الخرطوم </option>
+               <option value="ولاية الجزيرة">ولاية الجزيرة</option>
+               <option value="ولاية البحر الأحمر">ولاية البحر الأحمر </option>
+               <option value="ولاية كسلا">ولاية كسلا </option>
+               <option value="ولاية القضارف">ولاية القضارف </option>
+               <option value="ولاية سنار">ولاية سنار </option>
+               <option value="ولاية النيل الأبيض">ولاية النيل الأبيض </option>
+               <option value="ولاية النيل الأزرق">ولاية النيل الأزرق </option>
+               <option value="الولاية الشمالية">الولاية الشمالية </option>
+               <option value="ولاية نهر النيل">ولاية نهر النيل </option>
+               <option value="ولاية غرب كردفان">ولاية غرب كردفان </option>
+               <option value="ولاية جنوب كردفان">ولاية جنوب كردفان </option>
+               <option value="ولاية شمال دارفور">ولاية شمال دارفور </option>
+               <option value="ولاية غرب دارفور">ولاية غرب دارفور </option>
+               <option value="ولاية جنوب دارفور">ولاية جنوب دارفور </option>
+               <option value="ولاية شرق دارفور">ولاية شرق دارفور </option>
+               <option value="ولاية وسط دارفور">ولاية وسط دارفور </option>
+
 </select> &nbsp <i class="icon-map-marker"></i>
 </div>
 

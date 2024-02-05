@@ -84,7 +84,7 @@ include 'header.php';
 </div>
 </a>
 
-<a href="equipment/heavy.php">
+<a href="employment/home.php">
 <div class="cat">
 	الهندسة
 	<br/>
@@ -92,7 +92,7 @@ include 'header.php';
 </div>
 </a>
 
-<a href="equipment/heavy.php">
+<a href="employment/home.php">
 <div class="cat">
 	التسوييق والعلاقات العامة
 	<br/>
@@ -110,42 +110,7 @@ include 'header.php';
 </a>
 
 
-<a href="equipment/heavy.php">
-<div class="cat">
-	<?php echo _HEAVY; ?>
-	<br/>
-	<img src="image/equipment/heavy.png"/>
-</div>
-</a>
-
-
-<a href="equipment/heavy.php">
-<div class="cat">
-	<?php echo _HEAVY; ?>
-	<br/>
-	<img src="image/equipment/heavy.png"/>
-</div>
-</a>
-
-
-<a href="equipment/heavy.php">
-<div class="cat">
-	<?php echo _HEAVY; ?>
-	<br/>
-	<img src="image/equipment/heavy.png"/>
-</div>
-</a>
-
-
-<a href="equipment/heavy.php">
-<div class="cat">
-	<?php echo _HEAVY; ?>
-	<br/>
-	<img src="image/equipment/heavy.png"/>
-</div>
-</a>
-
-<a href="#">
+<a href="employment/home.php">
 <div class="cat">
 	الوظائف القانونية
 	<br/>
