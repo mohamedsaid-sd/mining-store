@@ -64,11 +64,11 @@ include 'header.php';
 <a href=""> <?php echo _ABOUT; ?> </a> 
 </div> -->
 
-
-
-
-<h4><?php echo _EQUIPMENT; ?></h4>
-<br/>
+<a href="index.php">
+<div id="page-title">
+ &nbsp
+<?php echo _EQUIPMENT; ?>
+</div></a>
 
 <div class="row" style="margin: 2px;font-weight: bold;">
 
@@ -86,16 +86,6 @@ include 'header.php';
 	<?php echo _HEAVY; ?>
 	<br/>
 	<img src="image/equipment/heavy.png"/>
-</div>
-</a>
-
-
-<a href="#">
-<div class="cat">
-	
-	<?php echo _ASSBEER; ?><br/>
-	<img src="image/equipment/spare.png"/>
-
 </div>
 </a>
 

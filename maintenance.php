@@ -26,7 +26,7 @@ include 'lang/ar.php';
 <!DOCTYPE html>
 <html>
 <head>
-	<title>  الاستكشاف </title>
+	<title>  الصيانة </title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -52,117 +52,78 @@ include 'lang/ar.php';
 // Include the header 
 include 'header.php';
 ?>
-<!-- 
-<div id="list"> 
-<?php echo _LANGMENT; ?>
-<a href="index.php"> <?php echo _HOME; ?> </a> 
-<a href=""><?php echo _FORUM; ?> </a> 
-<a href=""> <?php echo _FQ; ?> </a> 
-<a href=""> <?php echo _CONTACT; ?> </a> 
-<a href=""> <?php echo _ABOUT; ?> </a> 
-</div> -->
 
 <a href="index.php">
 <div id="page-title">
  &nbsp
- الاستكشاف 
+الصيانة
 </div></a>
+
+
 
 <div class="row" style="margin: 2px;font-weight: bold;">
 
 
-<a href="exploration/home.php">
+<a href="consulatations/home.php">
 <div class="cat">
-صور الأقمار الصناعية
+مكنيكا
 	<br/>
-	<img src="image/exploration/satlite.png"/>
+	<img src="image/main/spare.png"/>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-البحث الأولي
+كهرباء
 	<br/>
-	<img src="image/equipment/heavy.png"/>
+	<img src="image/main/spare.png"/>
 </div>
 </a>
 
 
 <a href="#">
 <div class="cat">
-	
-أخذ العينات	
-<img src="image/exploration/sample.png"/>
-
+مخرطة
+<img src="image/main/spare.png"/>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-	
-تحليل العينات
-	<img src="image/exploration/anliys.png"/>
-
+تكييف
+<img src="image/main/spare.png"/>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-	
-حفر الخنادق	
+تركيب زجاج
+<img src="image/main/spare.png"/>
+</div>
+</a>
+
+<a href="#">
+<div class="cat">
+سمكرة
+<img src="image/main/spare.png"/>
+</div>
+</a>
+
+<a href="#">
+<div class="cat">
+بوهية
+<img src="image/main/spare.png"/>
+</div>
+</a>
+
+<a href="#">
+<div class="cat">
+بنشر
 <br/>
-	<img src="image/exploration/digg.png"/>
-
+<img src="image/main/spare.png"/>
 </div>
 </a>
 
-
-<a href="#">
-<div class="cat">
-	
-حفر ال RC
-	<img src="image/exploration/dig2.png"/>
-
-</div>
-</a>
-
-<a href="#">
-<div class="cat">
-	
-حفر ال CORE.	<br/>
-	<img src="image/exploration/dig1.png"/>
-
-</div>
-</a>
-
-<a href="#">
-<div class="cat">
-	
-التحليل الجيولوجي للمناجم	
-<img src="image/exploration/gelogy.png"/>
-
-</div>
-</a>
-
-
-<a href="#">
-<div class="cat">
-	
-رسم خرائط المناجم
-<img src="image/exploration/map.png"/>
-
-</div>
-</a>
-
-
-<a href="#">
-<div class="cat">
-	
-التقارير الفنية
-<img src="image/exploration/reports.png"/>
-
-</div>
-</a>
 
 </div>
 

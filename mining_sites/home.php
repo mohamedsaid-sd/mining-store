@@ -26,8 +26,8 @@ include '../lang/ar.php';
 <!DOCTYPE html>
 <html>
 <head>
-	<title> <?php echo _HEAVY; ?> </title>
-	<meta charset="utf-8">
+	<title> مواقع التعدين </title>
+		<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 		<?php 
 	if($_SESSION['lang'] == 'en'){
@@ -43,10 +43,11 @@ include '../lang/ar.php';
 	?>
 	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="../css/font-awesome.css">
-
 </head>
 <style type="text/css">
-
+	.icon-map-marker{
+		font-size: 10px;
+	}
 </style>
 <body>
 
@@ -67,101 +68,66 @@ include '../lang/ar.php';
 <hr style="background-color: gold;height: 5px; border:none;box-shadow: 2px 2px 2px #333;" />
 </section>
 
-<a href="../equipment.php">
+
+<a href="../mining_sites.php">
 <div id="page-title">
  &nbsp
- الآليات والمعدات <i class="icon-double-angle-left"> </i> <?php echo _HEAVY; ?>
-</div>
+ مواقع التعدين  <i class="icon-double-angle-left"> </i> مواقع ترخيص نهائى
+</div></a>
 
 <div class="row" style="margin: 2px;font-weight: bold;">
 
-<a href="#">
-<div class="cat">
-	
-	<?php echo _excavators; ?>
-	<br/>
-	<img src="../image/equipment/heavy/excavator.png"/>
-</div>
-</a>
-
-<a href="#">
-<div class="cat">
-	
-	<?php echo _dozers; ?>
-	<br/>
-	<img src="../image/equipment/heavy/dozers.png"/>
-</div>
-</a>
-
-
-<a href="#">
-<div class="cat">
-	
-	<?php echo  _gradres; ?>
-	<br/>
-	<img src="../image/equipment/heavy/graders.png"/>
-
-</div>
-</a>
-
-<a href="#">
-<div class="cat">
-	
-	<?php echo _loaders; ?>
-	<br/>
-	<img src="../image/equipment/heavy/loder.png"/>
-
-</div>
-</a>
-
-<a href="#">
-<div class="cat">
-	
-	<?php echo _cranes ; ?>
-	<br/>
-	<img src="../image/equipment/heavy/crins.png"/>
-
-</div>
-</a>
-
-
-<a href="#">
-<div class="cat">
-	
-	<?php echo _forklifts; ?> 
-	<br/>
-	<img src="../image/equipment/heavy/forclfatat.png"/>
-
-</div>
-</a>
-
-<a href="#">
-<div class="cat">
-	
-	<?php echo _punching; ?> 
-	<br/>
-	<img src="../image/equipment/heavy/machien.png"/>
-
-</div>
-</a>
-
-<a href="#">
-<div class="cat">
-	
-	<?php echo _miscellaneous; ?>
-	<br/>
-	<img src="../image/equipment/accessores.png"/>
-
-</div>
-</a>
-
-
-
-
+<div class="service_card">
+<span class="fav"><i class="icon-heart"></i></span>
+<img src="../image/lands/images (1).jfif">
+<span class="loc"> 
+<i class="icon-map-marker"></i> الخرطوم  
+</span>
+<span class="name"> للبيع قطعة ارض للبيع ترخيص نهائى ...   </span>
+<span class="price"> $6,500.00 </span>
 </div>
 
+<div class="service_card">
+<span class="fav"><i class="icon-heart-empty"></i></span>
+<img src="../image/services/tran.jpeg">
+<span class="loc"> 
+<i class="icon-map-marker"></i> الخرطوم  
+</span>
+<span class="name"> للبيع قطعة ارض للبيع ترخيص نهائى ...   </span>
+<span class="price"> $6,500.00 </span>
+</div>
 
-<br/>
+<div class="service_card">
+<span class="fav"><i class="icon-heart-empty"></i></span>
+<img src="../image/lands/images.jfif">
+<span class="loc"> 
+<i class="icon-map-marker"></i> الخرطوم  
+</span>
+<span class="name"> للبيع قطعة ارض للبيع ترخيص نهائى ...   </span>
+<span class="price"> $7,400.00  </span>
+</div>
+
+<div class="service_card">
+<span class="fav"><i class="icon-heart-empty"></i></span>
+<img src="../image/lands/preview_6.jpg">
+<span class="loc"> 
+<i class="icon-map-marker"></i> الخرطوم  
+</span>
+<span class="name"> قطعة ارض للإيجار ترخيص نهائى ...   </span>
+<span class="price"> $8,400.000  </span>
+</div>
+
+<div class="service_card">
+<span class="fav"><i class="icon-heart-empty"></i></span>
+<img src="../image/logo.png">
+<span class="loc"> 
+<i class="icon-map-marker"></i> الخرطوم  
+</span>
+<span class="name"> للبيع قطعة ارض للبيع ترخيص نهائى ...   </span>
+<span class="price"> $6,500.00  </span>
+</div>
+
+</div>
 
 <?php include '../footer.php'; ?>
 

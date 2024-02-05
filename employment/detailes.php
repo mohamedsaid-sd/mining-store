@@ -65,9 +65,12 @@ include '../lang/ar.php';
 <hr style="background-color: gold;height: 5px; border:none;box-shadow: 2px 2px 2px #333;" />
 </section>
 
-
-<br/>
-<h4><?php echo _jobdetailes; ?></h4>
+<a style="background:none;" href="#">
+<div id="page-title">
+ &nbsp
+ <?php echo _jobdetailes; ?> 
+</div>
+</a>
 
 <div class="row" style="margin: 2px;font-weight: bold;">
 

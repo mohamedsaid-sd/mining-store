@@ -43,7 +43,6 @@ include 'lang/ar.php';
 	?>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-
 </head>
 <style type="text/css">
 
@@ -56,24 +55,17 @@ include 'lang/ar.php';
 include 'header.php';
 ?>
 
-<br/>
-<h4><?php echo _employment; ?></h4>
-
-<div id="list"> 
-<?php echo _LANGMENT; ?>
-<a href="#"> وظائف مطلوبة </a> 
-<a href="#"> وظائف معروضة </a> 
-
-</div>
-
-
-
+<a href="index.php">
+<div id="page-title">
+ &nbsp
+<?php echo _employment; ?>
+</div></a>
 
 <div class="row" style="margin: 2px;font-weight: bold;">
 
 
 
-<a href="employment/home.php">
+<a href="employment/home.php?id=all">
 <div class="cat">
 <br/>
 <br/>

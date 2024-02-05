@@ -52,25 +52,19 @@ include 'lang/ar.php';
 // Include the header 
 include 'header.php';
 ?>
-<!-- 
-<div id="list"> 
-<?php echo _LANGMENT; ?>
-<a href="index.php"> <?php echo _HOME; ?> </a> 
-<a href=""><?php echo _FORUM; ?> </a> 
-<a href=""> <?php echo _FQ; ?> </a> 
-<a href=""> <?php echo _CONTACT; ?> </a> 
-<a href=""> <?php echo _ABOUT; ?> </a> 
-</div> -->
 
-<br/>
-<h4> مواقع التعدين </h4>
+<a href="index.php">
+<div id="page-title">
+ &nbsp
+ مواقع التعدين 
+</div></a>
 
 
 
 <div class="row" style="margin: 2px;font-weight: bold;">
 
 
-<a href="mining_sitesinfo.php">
+<a href="mining_sites/home.php">
 <div class="cat">
 مواقع ترخيص نهائى
 	<br/>

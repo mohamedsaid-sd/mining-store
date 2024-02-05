@@ -26,15 +26,14 @@ include '../lang/ar.php';
 <!DOCTYPE html>
 <html>
 <head>
-	<title> <?php echo _jobs; ?> </title>
-	<meta charset="utf-8">
+	<title> <?php echo _employment; ?> </title>
+		<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="../css/font-awesome.css">
-	<?php 
+		<?php 
 	if($_SESSION['lang'] == 'en'){
 	?>
-	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/style-ar.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
 	<?php
 	}else{
 	?>
@@ -42,24 +41,9 @@ include '../lang/ar.php';
 	<?php
 	}
 	?>
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../css/font-awesome.css">
 </head>
-<style type="text/css">
-a{
-	text-decoration: none;
-	color: #777;
-}
-a:hover{
-	color: #777;
-}
-
-b{
-	color : #000;
-	font-weight: bold;
-	font-size: 15px;
-	font-style: normal;
-
-}
-</style>
 <body>
 
 <section id="header" style="background-color: #123;">
@@ -79,221 +63,259 @@ b{
 <hr style="background-color: gold;height: 5px; border:none;box-shadow: 2px 2px 2px #333;" />
 </section>
 
+<a style="background:none;" href="../employment.php">
+<div id="page-title">
+ &nbsp
+ التوظيف <i class="icon-double-angle-left"> </i> الهندسة
+</div>
+</a>
 
-
- <h4>التوظيف</h4>
-<br/>
 
 <div id="list"> 
-<?php echo _LANGMENT; ?>
-<a href="#"> وظائف مطلوبة </a> 
-<a href="#"> وظائف معروضة </a> 
+
+<?php 
+if($_GET['id'] == "all"){
+?>
+<a style="background-color: gold;" href="?id=all"> كل الوظائف </a> 
+<a href="?id=tab1"> وظائف مطلوبة </a> 
+<a href="?id=tab2"> وظائف معروضة </a>
+<?php 
+}elseif($_GET['id'] == "tab1"){
+?>
+<a href="?id=all"> كل الوظائف </a> 
+<a style="background-color: gold" href="?id=tab1"> وظائف مطلوبة </a> 
+<a href="?id=tab2"> وظائف معروضة </a> 
+<?php 
+}elseif($_GET['id'] == "tab2"){
+?>
+<a href="?id=all"> كل الوظائف </a> 
+<a href="?id=tab1"> وظائف مطلوبة </a> 
+<a style="background-color: gold" href="?id=tab2"> وظائف معروضة </a> 
+<?php } ?>
 </div>
+
 
 <div class="row" style="margin: 2px;font-weight: bold;">
-
-
-<a href="detailes.php">
-<div class="emp-card">
-<span style="float: left;" class="icon-heart-empty"></span>
-<img src="../image/Job/Job.png">
-<!-- The Job name -->
-<p> مطلوب حارس امن  </p>
-<!-- The Job Description -->
-<p style="font-size: 18px;padding: 0px;font-weight: bold;"> نريد حارس لحراسة شركة خاصة  </p>
-<!-- The Job Price -->
-<p> 100,000 ج.س </p>
-<p style="text-align: left;">
-<!-- The Views -->
-<br/><i><span class="icon-thumbs-up"></span>86</i>
-<!-- The comments -->
-<i><span class="icon-comment"></span>  &nbsp 21
-<!--The Favorite -->
-</p>
-</div>
-</a>
+<?php 
+if($_GET['id'] == "all"){
+?>
 
 <a href="detailes.php">
-<div class="emp-card">
-<span style="float: left;" class="icon-heart-empty"></span>
-<img src="../image/Job/Job.png">
-<!-- The Job name -->
-<p> مدير حسابات  </p>
-<!-- The Job Description -->
-<p style="font-size: 15px;padding: 0px;font-weight: bold;"> مطلوب مدير زو خبرة في مجال الحسابات العامة  </p>
-<!-- The Job Price -->
-<p> 270,000 ج.س </p>
-<p style="text-align: left;">
-<!-- The Views -->
-<br/><i><span class="icon-thumbs-up"></span>87</i>
-<!-- The comments -->
-<i><span class="icon-comment"></span>  &nbsp 32
-<!--The Favorite -->
-</p>
+<div class="service_card">
+<span class="fav"><i class="icon-heart-empty"></i></span>
+<img src="../image/logo.png">
+<span class="loc"> 
+<i class="icon-map-marker"></i> الخرطوم  
+</span>
+<span class="name"> نريد مهندس للعمل ضمن شركت Tech التقنية ...   </span>
+<span class="price"> 2500.00 ج.م </span>
 </div>
 </a>
 
-
-<a href="detailes.php">
-<div class="emp-card">
-<span style="float: left;" class="icon-heart-empty"></span>
-<img src="../image/Job/Job.png">
-<!-- The Job name -->
-<p> مطلوب مهندس كهرباء   </p>
-<!-- The Job Description -->
-<p style="font-size: 15px;padding: 0px;font-weight: bold;"> نريد مهندس لصيانه  خطوط الكهرباء في  الشركة  </p>
-<!-- The Job Price -->
-<p> 50,000 ج.س </p>
-<p style="text-align: left;">
-<!-- The Views -->
-<br/><i><span class="icon-thumbs-up"></span>86</i>
-<!-- The comments -->
-<i><span class="icon-comment"></span>  &nbsp 12
-</p>
+<div class="service_card">
+<span class="fav"><i class="icon-heart"></i></span>
+<img src="../image/camps/map.png">
+<span class="loc"> 
+<i class="icon-map-marker"></i> الخرطوم  
+</span>
+<span class="name"> مطلوب منندس لديه خبرة في الرسم الهندسى ...   </span>
+<span class="price"> 2500.00 ج.م </span>
 </div>
-</a>
 
-<a href="#">
-<div class="emp-card">
-<span style="float: left;" class="icon-heart-empty"></span>
-<img src="../image/Job/Job.png">
-<!-- The Job name -->
-<p> Hiring For Bike Riders  </p>
-<!-- The Job Description -->
-<p style="font-size: 15px;padding: 0px;font-weight: bold;"> We need bike riders for work with our resturant  </p>
-<!-- The Job Price -->
-<p> 60,000 ج.س </p>
-<p style="text-align: left;">
-<!-- The Views -->
-<br/><i><span class="icon-thumbs-up"></span>98</i>
-<!-- The comments -->
-<i><span class="icon-comment"></span>  &nbsp 8
-<!--The Favorite -->
-</p>
+<div class="service_card">
+<span class="fav"><i class="icon-heart-empty"></i></span>
+<img src="../image/camps/silk.png">
+<span class="loc"> 
+<i class="icon-map-marker"></i> الخرطوم  
+</span>
+<span class="name"> نريد مهندس كهرباء متمرس للعمل مع  شركتنا  ...   </span>
+<span class="price"> 5500.00 ج.م </span>
 </div>
-</a>
 
-<a href="#">
-<div class="emp-card">
-<span style="float: left;" class="icon-heart-empty"></span>
-<img src="../image/Job/Job.png">
-<!-- The Job name -->
-<p> ابحث عن وظيفة دوام جزئى  </p>
-<!-- The Job Description -->
-<p style="font-size: 15px;padding: 0px;font-weight: bold;"> انا اعمل في شركة بدوام جزئي واريد وظيفة اخرى  </p>
-<!-- The Job Price -->
-<p> 29,000 ج.س </p>
-<p style="text-align: left;">
-<!-- The Views -->
-<br/><i><span class="icon-thumbs-up"></span>87</i>
-<!-- The comments -->
-<i><span class="icon-comment"></span>  &nbsp 32
-<!--The Favorite -->
-</p>
+<div class="service_card">
+<span class="fav"><i class="icon-heart-empty"></i></span>
+<img src="../image/camps/internet.png">
+<span class="loc"> 
+<i class="icon-map-marker"></i> الخرطوم  
+</span>
+<span class="name"> نريد مهندس شبكات للعمل مع فريقنا المتواضع  ...   </span>
+<span class="price"> 5500.00 ج.م </span>
 </div>
-</a>
 
-<a href="#">
-<div class="emp-card">
-<span style="float: left;" class="icon-heart-empty"></span>
-<img src="../image/Job/Job.png">
-<!-- The Job name -->
-<p> مطلوب مهدس كمبيوتر  </p>
-<!-- The Job Description -->
-<p style="font-size: 15px;padding: 0px;font-weight: bold;"> نحتاج الي مهندش شبكات لعملية الاشراف علي شبكة مجمع طبي  </p>
-<!-- The Job Price -->
-<p> 102,000 ج.س </p>
-<p style="text-align: left;">
-<!-- The Views -->
-<br/><i><span class="icon-thumbs-up"></span>96</i>
-<!-- The comments -->
-<i><span class="icon-comment"></span>  &nbsp 30
-<!--The Favorite -->
-</p>
+
+<div class="service_card">
+<span class="fav"><i class="icon-heart-empty"></i></span>
+<img src="../image/camps/internet.png">
+<span class="loc"> 
+<i class="icon-map-marker"></i> الخرطوم  
+</span>
+<span class="name"> اريد وظيفة مصمم تطبيقات ومواقع الكترونية  ...   </span>
+<span class="price"> 5500.00 ج.م </span>
 </div>
-</a>
 
-<a href="#">
-<div class="emp-card">
-<span style="float: left;" class="icon-heart-empty"></span>
-<img src="../image/Job/Job.png">
-<!-- The Job name -->
-<p> مطلوب إدارية  </p>
-<!-- The Job Description -->
-<p style="font-size: 15px;padding: 0px;font-weight: bold;"> نحن منظمة جديدة نبحث عن مديرة لترتيب اجراءات عملنا  </p>
-<!-- The Job Price -->
-<p> 7,000 ج.س </p>
-<p style="text-align: left;">
-<!-- The Views -->
-<br/><i><span class="icon-thumbs-up"></span>89</i>
-<!-- The comments -->
-<i><span class="icon-comment"></span>  &nbsp 20
-<!--The Favorite -->
-</p>
+<div class="service_card">
+<span class="fav"><i class="icon-heart-empty"></i></span>
+<img src="../image/logo.png">
+<span class="loc"> 
+<i class="icon-map-marker"></i> الخرطوم  
+</span>
+<span class="name"> ابحث عن وظيفة في مجال الهندسة ...   </span>
+<span class="price"> 2500.00 ج.م </span>
 </div>
-</a>
 
-<a href="#">
-<div class="emp-card">
-<span style="float: left;" class="icon-heart-empty"></span>
-<img src="../image/Job/Job.png">
-<!-- The Job name -->
-<p> نبحث عن مدير شركة تنظيف  </p>
-<!-- The Job Description -->
-<p style="font-size: 15px;padding: 0px;font-weight: bold;"> شركتا رائدة في مجال التنظيف نبحث عن مدير للشركة   </p>
-<!-- The Job Price -->
-<p> 100,000 ج.س </p>
-<p style="text-align: left;">
-<!-- The Views -->
-<br/><i><span class="icon-thumbs-up"></span>87</i>
-<!-- The comments -->
-<i><span class="icon-comment"></span>  &nbsp 21
-<!--The Favorite -->
-</p>
+<div class="service_card">
+<span class="fav"><i class="icon-heart-empty"></i></span>
+<img src="../image/camps/map.png">
+<span class="loc"> 
+<i class="icon-map-marker"></i> الخرطوم  
+</span>
+<span class="name"> لدي خبرة في مجال تعدين البيت كوين وابحث عن ...   </span>
+<span class="price"> 2500.00 ج.م </span>
 </div>
-</a>
 
-<a href="#">
-<div class="emp-card">
-<span style="float: left;" class="icon-heart-empty"></span>
-<img src="../image/Job/Job.png">
-<!-- The Job name -->
-<p> مطلوب مدير عام </p>
-<!-- The Job Description -->
-<p style="font-size: 15px;padding: 0px;font-weight: bold;"> نحتاج مدير عام لمصنع بلاستيك لديه خبرة سابقة  </p>
-<!-- The Job Price -->
-<p> 100,000 ج.س </p>
-<p style="text-align: left;">
-<!-- The Views -->
-<br/><i><span class="icon-thumbs-up"></span>78</i>
-<!-- The comments -->
-<i><span class="icon-comment"></span>  &nbsp 21
-<!--The Favorite -->
-</p>
+<div class="service_card">
+<span class="fav"><i class="icon-heart-empty"></i></span>
+<img src="../image/camps/silk.png">
+<span class="loc"> 
+<i class="icon-map-marker"></i> الخرطوم  
+</span>
+<span class="name"> ابحث عن عمل اضافى في شركة اخري غير الدوام ...   </span>
+<span class="price"> 5500.00 ج.م </span>
 </div>
-</a>
 
-<a href="#">
-<div class="emp-card">
-<span style="float: left;" class="icon-heart-empty"></span>
-<img src="../image/Job/Job.png">
-<!-- The Job name -->
-<p> مطلوب سكرتيرة  </p>
-<!-- The Job Description -->
-<p style="font-size: 15px;padding: 0px;font-weight: bold;"> مستشفى خاص يحتاج سكرتيرة في قسم التخدير   </p>
-<!-- The Job Price -->
-<p> 200,000 ج.س </p>
-<p style="text-align: left;">
-<!-- The Views -->
-<br/><i><span class="icon-thumbs-up"></span>65</i>
-<!-- The comments -->
-<i><span class="icon-comment"></span>  &nbsp 14
-<!--The Favorite -->
-</p>
+<div class="service_card">
+<span class="fav"><i class="icon-heart"></i></span>
+<img src="../image/camps/silk.png">
+<span class="loc"> 
+<i class="icon-map-marker"></i> الخرطوم  
+</span>
+<span class="name"> لدي خبرة في مجال صيانة التطبيقات  ...   </span>
+<span class="price"> 5500.00 ج.م </span>
 </div>
-</a>
+
+<div class="service_card">
+<span class="fav"><i class="icon-heart-empty"></i></span>
+<img src="../image/camps/silk.png">
+<span class="loc"> 
+<i class="icon-map-marker"></i> الخرطوم  
+</span>
+<span class="name"> نريد مهندس لصيانه  خطوط الكهرباء في  الشركة  ...   </span>
+<span class="price"> 5500.00 ج.م </span>
+</div>
+
+<?php 
+}elseif($_GET['id'] == "tab1"){
+?>
+
+<div class="service_card">
+<span class="fav"><i class="icon-heart"></i></span>
+<img src="../image/logo.png">
+<span class="loc"> 
+<i class="icon-map-marker"></i> الخرطوم  
+</span>
+<span class="name"> ابحث عن وظيفة في مجال الهندسة ...   </span>
+<span class="price"> 2500.00 ج.م </span>
+</div>
+
+<div class="service_card">
+<span class="fav"><i class="icon-heart-empty"></i></span>
+<img src="../image/camps/map.png">
+<span class="loc"> 
+<i class="icon-map-marker"></i> الخرطوم  
+</span>
+<span class="name"> لدي خبرة في مجال تعدين البيت كوين وابحث عن ...   </span>
+<span class="price"> 2500.00 ج.م </span>
+</div>
+
+<div class="service_card">
+<span class="fav"><i class="icon-heart"></i></span>
+<img src="../image/camps/silk.png">
+<span class="loc"> 
+<i class="icon-map-marker"></i> الخرطوم  
+</span>
+<span class="name"> ابحث عن عمل اضافى في شركة اخري غير الدوام ...   </span>
+<span class="price"> 5500.00 ج.م </span>
+</div>
+
+<div class="service_card">
+<span class="fav"><i class="icon-heart-empty"></i></span>
+<img src="../image/camps/silk.png">
+<span class="loc"> 
+<i class="icon-map-marker"></i> الخرطوم  
+</span>
+<span class="name"> لدي خبرة في مجال صيانة التطبيقات  ...   </span>
+<span class="price"> 5500.00 ج.م </span>
+</div>
+
+<div class="service_card">
+<span class="fav"><i class="icon-heart-empty"></i></span>
+<img src="../image/camps/internet.png">
+<span class="loc"> 
+<i class="icon-map-marker"></i> الخرطوم  
+</span>
+<span class="name"> اريد وظيفة مصمم تطبيقات ومواقع الكترونية  ...   </span>
+<span class="price"> 5500.00 ج.م </span>
+</div>
 
 
+<?php
+}else{
+?>
+
+
+<div class="service_card">
+<span class="fav"><i class="icon-heart"></i></span>
+<img src="../image/logo.png">
+<span class="loc"> 
+<i class="icon-map-marker"></i> الخرطوم  
+</span>
+<span class="name"> نريد مهندس للعمل ضمن شركت Tech التقنية ...   </span>
+<span class="price"> 2500.00 ج.م </span>
+</div>
+
+<div class="service_card">
+<span class="fav"><i class="icon-heart"></i></span>
+<img src="../image/camps/map.png">
+<span class="loc"> 
+<i class="icon-map-marker"></i> الخرطوم  
+</span>
+<span class="name"> مطلوب منندس لديه خبرة في الرسم الهندسى ...   </span>
+<span class="price"> 2500.00 ج.م </span>
+</div>
+
+<div class="service_card">
+<span class="fav"><i class="icon-heart-empty"></i></span>
+<img src="../image/camps/silk.png">
+<span class="loc"> 
+<i class="icon-map-marker"></i> الخرطوم  
+</span>
+<span class="name"> نريد مهندس لصيانه  خطوط الكهرباء في  الشركة  ...   </span>
+<span class="price"> 5500.00 ج.م </span>
+</div>
+
+<div class="service_card">
+<span class="fav"><i class="icon-heart"></i></span>
+<img src="../image/camps/silk.png">
+<span class="loc"> 
+<i class="icon-map-marker"></i> الخرطوم  
+</span>
+<span class="name"> نريد مهندس كهرباء متمرس للعمل مع  شركتنا  ...   </span>
+<span class="price"> 5500.00 ج.م </span>
+</div>
+
+<div class="service_card">
+<span class="fav"><i class="icon-heart-empty"></i></span>
+<img src="../image/camps/internet.png">
+<span class="loc"> 
+<i class="icon-map-marker"></i> الخرطوم  
+</span>
+<span class="name"> نريد مهندس شبكات للعمل مع فريقنا المتواضع  ...   </span>
+<span class="price"> 5500.00 ج.م </span>
+</div>
+
+
+
+<?php } ?>
 
 </div>
 

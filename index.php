@@ -73,6 +73,11 @@ include 'header.php';
 <a href=""> <?php echo _ABOUT; ?> </a> 
 </div> -->
 
+<div id="list"> 
+<a href="#"> الرئيسية </a>
+<a href="forum.php"> المنتدي </a>
+</div>
+
 <br/>
 
 <marquee style="background-color: #ffe;padding: 10px;margin-top: 10px;font-weight: bold;" direction="right"> <?php echo _WEB_SITE_NAME; ?> مرحبا بكم في موقع سوق التعدين نرحب بكل الاعضاء الجدد ونتمني لكم تجربه ممتعة ومفيدة معنا , اخر اخبار السوق اليوم متوفرة عروض ممتازة علي المعدات في صفحة المعدات , تراجع ملحوظ لاسعار الذهب اليوم مقابل الدولار مما يعني توقع انخفاضه الاسبوع المقبل , لقد وفرنا لاعضائنا الكرام مجموعة من الخدمات المتعلقة بالكهرباء والمكنيكا مع موظفين باعلي الخبراء للتقام بعمليات الصيانه من اجلكم ... للمذيد من الاخبار الرجار تصفح قسم الاخبار في الموقع   </marquee>
@@ -117,7 +122,7 @@ include 'header.php';
 </div>
 </a>
 
-<a href="#">
+<a href="process/home.php">
 <div class="cat">
 	<?php echo _Extraction; ?>
 	<br/>
@@ -133,15 +138,23 @@ include 'header.php';
 </div>
 </a>
 
-<a href="">
+<a href="maintenance.php">
 <div class="cat">
-	<?php echo _Maintenance; ?>
+	الصيانة
 	<br/>
 	<img src="image/main/spare.png"/>
 </div>
 </a>
 
-<a href="#">
+<a href="spare.php">
+<div class="cat">
+	الاسبيرات
+	<br/>
+	<img src="image/main/spare.png"/>
+</div>
+</a>
+
+<a href="consulatations.php">
 <div class="cat">
 	<?php echo _Consulting; ?>
 	<br/>
@@ -166,7 +179,7 @@ include 'header.php';
 </div>
 </a>
 
-<a href="#">
+<a href="soon.php">
 <div class="cat">
 	<?php echo _procedures; ?>
 	<br/>

@@ -62,13 +62,16 @@ include 'header.php';
 <a href=""> <?php echo _ABOUT; ?> </a> 
 </div> -->
 
-<br/>
-<h4> تجهيز المعسكرات </h4>
+<a href="index.php">
+<div id="page-title">
+ &nbsp
+ تجهيز المعسكرات 
+</div></a>
 
 <div class="row" style="margin: 2px;font-weight: bold;">
 
 
-<a href="#">
+<a href="camps/home.php">
 <div class="cat">
 رسم الخرائط
 	<br/>

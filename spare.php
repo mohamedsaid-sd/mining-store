@@ -26,7 +26,7 @@ include 'lang/ar.php';
 <!DOCTYPE html>
 <html>
 <head>
-	<title>  الاستكشاف </title>
+	<title>  الاسبيرات </title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -52,117 +52,75 @@ include 'lang/ar.php';
 // Include the header 
 include 'header.php';
 ?>
-<!-- 
-<div id="list"> 
-<?php echo _LANGMENT; ?>
-<a href="index.php"> <?php echo _HOME; ?> </a> 
-<a href=""><?php echo _FORUM; ?> </a> 
-<a href=""> <?php echo _FQ; ?> </a> 
-<a href=""> <?php echo _CONTACT; ?> </a> 
-<a href=""> <?php echo _ABOUT; ?> </a> 
-</div> -->
 
 <a href="index.php">
 <div id="page-title">
  &nbsp
- الاستكشاف 
+ الاسبيرات
 </div></a>
+
+
 
 <div class="row" style="margin: 2px;font-weight: bold;">
 
 
-<a href="exploration/home.php">
+<a href="#">
 <div class="cat">
-صور الأقمار الصناعية
+	إطارات
 	<br/>
-	<img src="image/exploration/satlite.png"/>
+	<img src="image/main/spare.png"/>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-البحث الأولي
+   فلتر
 	<br/>
-	<img src="image/equipment/heavy.png"/>
+	<img src="image/main/spare.png"/>
 </div>
 </a>
 
 
 <a href="#">
 <div class="cat">
-	
-أخذ العينات	
-<img src="image/exploration/sample.png"/>
-
+  زجاج
+ <br/>
+<img src="image/main/spare.png"/>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-	
-تحليل العينات
-	<img src="image/exploration/anliys.png"/>
-
+  نظام تبريد
+ <br/>
+<img src="image/main/spare.png"/>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-	
-حفر الخنادق	
-<br/>
-	<img src="image/exploration/digg.png"/>
-
-</div>
-</a>
-
-
-<a href="#">
-<div class="cat">
-	
-حفر ال RC
-	<img src="image/exploration/dig2.png"/>
-
+  بطاريات واسكسوارات
+ <br/>
+<img src="image/main/spare.png"/>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-	
-حفر ال CORE.	<br/>
-	<img src="image/exploration/dig1.png"/>
-
+  زيوت
+ <br/>
+<img src="image/main/spare.png"/>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-	
-التحليل الجيولوجي للمناجم	
-<img src="image/exploration/gelogy.png"/>
-
+  قطع اخرى
+ <br/>
+<img src="image/main/spare.png"/>
 </div>
 </a>
 
-
-<a href="#">
-<div class="cat">
-	
-رسم خرائط المناجم
-<img src="image/exploration/map.png"/>
-
-</div>
-</a>
-
-
-<a href="#">
-<div class="cat">
-	
-التقارير الفنية
-<img src="image/exploration/reports.png"/>
-
-</div>
-</a>
 
 </div>
 

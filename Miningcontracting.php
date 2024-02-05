@@ -62,12 +62,15 @@ include 'header.php';
 <a href=""> <?php echo _ABOUT; ?> </a> 
 </div> -->
 
-<br/>
-<h4> مقاولات التعدين </h4>
+<a href="index.php">
+<div id="page-title">
+ &nbsp
+ مقاولات التعدين 
+</div></a>
 
 <div class="row" style="margin: 2px;font-weight: bold;">
 
-<a href="#">
+<a href="mining_contracting/home.php">
 <div class="cat">
 الحفر
 	<br/>

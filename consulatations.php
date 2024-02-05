@@ -15,7 +15,7 @@ if(isset($_POST['ar'])){
 }
 
 if($_SESSION['lang'] == 'en'){
-include 'lang/en.php';
+    include 'lang/ar.php';	
 }else{
 include 'lang/ar.php';	
 }
@@ -26,7 +26,7 @@ include 'lang/ar.php';
 <!DOCTYPE html>
 <html>
 <head>
-	<title> <?php echo _SERVICES; ?> </title>
+	<title>  الاستشارات </title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -34,7 +34,7 @@ include 'lang/ar.php';
 	<?php 
 	if($_SESSION['lang'] == 'en'){
 	?>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/style-ar.css">
 	<?php
 	}else{
 	?>
@@ -53,62 +53,41 @@ include 'lang/ar.php';
 include 'header.php';
 ?>
 
-<!-- <div id="list"> 
-<?php echo _LANGMENT; ?>
-<a href="#"> خدمات عامة </a> 
-<a href="#"> خدمات شركات التعدين </a> 
-
-</div> -->
-
 <a href="index.php">
 <div id="page-title">
  &nbsp
- الخدمات 
+ الاستشارات
 </div></a>
 
 
-<br/>
 
 <div class="row" style="margin: 2px;font-weight: bold;">
 
-<a href="services/home.php">
-<div class="cat" style="text-align: center;">
-<br/>
-<br/>
-مشاهدة جميع الاعلانات 19
-<br/>	<br/><br/>
-</div>
-</a>
 
-
-<a href="services/home.php">
+<a href="consulatations/home.php">
 <div class="cat">
-	خدمات المقاولات
+الدراسات
 	<br/>
-	<img src="image/con.png"/>
-</div>
-</a>
-
-
-<a href="services/home.php">
-<div class="cat">
-	خدمات الترجمة
-	<br/>
-	<img src="image/eng.png"/>
-
+	<img src="image/main/consol.png"/>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-	خدمات قانونية
+الاستشارات
 	<br/>
-	<img src="image/services/law.jpg"/>
+	<img src="image/main/consol.png"/>
 </div>
 </a>
 
 
+<a href="#">
+<div class="cat">
+التحكيم وفض النزاعات
+<img src="image/main/consol.png"/>
 
+</div>
+</a>
 
 
 

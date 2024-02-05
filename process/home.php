@@ -26,15 +26,14 @@ include '../lang/ar.php';
 <!DOCTYPE html>
 <html>
 <head>
-	<title> <?php echo _TRUCKS; ?> </title>
-	<meta charset="utf-8">
+	<title> الخدمات </title>
+		<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="../css/font-awesome.css">
-	<?php 
+		<?php 
 	if($_SESSION['lang'] == 'en'){
 	?>
-	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/style-ar.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
 	<?php
 	}else{
 	?>
@@ -42,9 +41,13 @@ include '../lang/ar.php';
 	<?php
 	}
 	?>
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../css/font-awesome.css">
 </head>
 <style type="text/css">
-
+	.icon-map-marker{
+		font-size: 10px;
+	}
 </style>
 <body>
 
@@ -65,61 +68,46 @@ include '../lang/ar.php';
 <hr style="background-color: gold;height: 5px; border:none;box-shadow: 2px 2px 2px #333;" />
 </section>
 
-<a href="../equipment.php">
+
+<a href="../index.php">
 <div id="page-title">
  &nbsp
- الآليات والمعدات <i class="icon-double-angle-left"> </i> <?php echo _TRUCKS; ?>
-</div>
+ المعالجة والاستخلاص
+</div></a>
 
 <div class="row" style="margin: 2px;font-weight: bold;">
 
-
-<a href="products.php">
-<div class="cat-long">
-	
-	<?php echo _trippers; ?>
-	<br/>
-	<img src="../image/equipment/trucks/trippers.png"/>
-</div>
-</a>
-
-<a href="#">
-<div class="cat-long">
-	
-	<?php echo _trailers; ?>
-	<br/>
-	<img src="../image/equipment/trucks/trailers.png"/>
-</div>
-</a>
-
-
-<a href="#">
-<div class="cat-long">
-	
-	<?php echo _watercar; ?>
-	<br/>
-	<img src="../image/equipment/trucks/watercar.png"/>
-
-</div>
-</a>
-
-<a href="#">
-<div class="cat-long">
-	
-	<?php echo _miscellaneous; ?>
-	<br/>
-	<img src="../image/equipment/accessores.png"/>
-
-</div>
-</a>
-
-
-
-
+<div class="service_card">
+<span class="fav"><i class="icon-heart"></i></span>
+<img src="../image/exploration/sample.png">
+<span class="loc"> 
+<i class="icon-map-marker"></i> الخرطوم  
+</span>
+<span class="name"> تخليص لبضاعة 2 طن حديد مقابل خام نحاس وتعل  ...  </span>
+<span class="price"> $500.00 </span>
 </div>
 
+<div class="service_card">
+<span class="fav"><i class="icon-heart-empty"></i></span>
+<img src="../image/main/truck.png">
+<span class="loc"> 
+<i class="icon-map-marker"></i> الخرطوم  
+</span>
+<span class="name"> تخليص دفار هولندي Xvo بقيمة الشراء من المال  ...   </span>
+<span class="price"> $5,000.00 </span>
+</div>
 
-<br/>
+<div class="service_card">
+<span class="fav"><i class="icon-heart-empty"></i></span>
+<img src="../image/logo.png">
+<span class="loc"> 
+<i class="icon-map-marker"></i> الخرطوم  
+</span>
+<span class="name"> تتوفر خدمة معالجة وتخليص للاستفسار ... ...   </span>
+<span class="price"> $50,000.00 </span>
+</div>
+
+</div>
 
 <?php include '../footer.php'; ?>
 

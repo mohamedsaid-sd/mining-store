@@ -9,6 +9,203 @@
 	src : url('../assets/fonts/ando-bold.ttf');
 }
 
+/*useful classes :*/
+.full{
+	margin: 10px;
+	width: 98%;
+}
+
+
+/*LOGIN DESIGIN */
+#login{
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px #123;
+}
+
+/*PAGE TITLE DESIGIN*/
+#page-title{
+	padding: 15px;
+	background-color: #123;
+	color: #fff;
+	margin: 10px;
+	font-family: 'ando-bold';
+	border-radius: 10px;
+	font-size: 15px;
+}
+
+/*CREATE NEW POST STYLE*/
+#post{
+	padding: 10px;
+}
+
+#post img{
+	width: 50px;
+	height: 50px;
+	border:solid 2px #ffe;
+	padding: 2px;margin: 5px;
+	border-radius: 50px;
+}
+
+#post span{
+	font-size: 12px;
+	font-family: 'ando-bold';
+}
+
+#post button{
+	padding: 10px;
+	background-color: #123;
+	color: gold;
+	margin: 10px;
+	font-family: 'ando-bold';
+	border-radius: 10px;
+	width: 200px;
+}
+
+#post .attach{
+	width: 50px;
+	height: 50px;
+	background-color: #aba;
+	border:none;
+	margin: 5px;
+	color: #000;
+}
+
+#post textarea{
+	width: 95%;
+	padding: 5px;
+	margin: 5px;
+	height: 60px;
+	font-family: 'ando-normal';
+}
+
+
+/*-----------------------------------------------------*/
+
+
+/*--------------------FORUM DESIGIN--------------------*/
+
+.forum-card{
+	background-color: #fff;
+	width: 48%;
+	float: right;
+	margin: 1%;
+	font-family: 'ando-bold';
+}
+
+.forum-card img{
+	width: 60px;
+	height: 60px;
+	border:solid 2px #ffe;
+	padding: 2px;
+	margin: 5px;
+	border-radius: 50px;
+	float: right;
+}
+
+.forum-card .topic-image{
+	width: 20%;
+	height: 50px;
+	border-radius: 0px;
+}
+
+.forum-card .name{
+	color: red;
+	padding: 10px;
+	font-size: 20px;
+}
+
+.forum-card .name{
+	color: #000;
+	padding: 10px;
+	margin: 5px;
+}
+
+.forum-card .date{
+	color: #000;
+	font-size: 13px;
+	margin: 5px;
+}
+
+.forum-card .loc{
+	margin: 5px;
+	color: #000;
+	font-size: 13px;
+}
+
+.forum-card .more{
+	float: left;
+	padding: 10px;
+}
+
+.forum-card p{
+	padding: 10px;
+	text-indent: 10px;
+	font-size: 15px;
+	font-family: 'ando-normal';
+}
+
+.forum-card span{
+	padding: 5px;
+}
+
+/*-----------------------------------------------------*/
+
+
+/*THE MAIN WEB SITE CARDS DESIGIN*/
+
+/*SERVICE CARD*/
+
+.service_card{
+	padding: 5px;
+	background-color: #eee;
+	margin: 1%;
+	width: 17%;
+	float: right;
+	z-index: 4;
+	font-family: 'ando-normal';
+	height: 260px;
+	border-radius: 10px;
+}
+
+.service_card img{
+	width: 100%;
+	height: 150px;
+	z-index: 1;
+	margin-top:-20px;
+}
+
+.service_card .fav{
+	position: relative;
+	top: 5px;
+	right: 185px;
+	color: red;
+	z-index: 10;
+	float: right;
+}
+
+.service_card .loc{
+	display: block;
+	font-size: 10px;
+	padding: 5px;
+}
+
+.service_card .name{
+	display: block;
+	font-size: 15px;
+	padding: 5px;
+	font-family: 'ando-bold';
+}
+
+.service_card .price{
+	display: block;
+	font-size: 20px;
+	padding: 5px;
+	font-weight: bold;
+}
+
+/************************************************/
+
 body{
 	background:linear-gradient(to bottom , #123 10%, #fff 100%);
 	margin-bottom: 30px;
@@ -56,10 +253,12 @@ header button , header img {
 	border-radius: 10px;
 	max-width: 120px;
 	text-align: center;
+	border-radius: solid 2px gold; 
 }
 
-#list a:hover{
-	color: #666;
+#list a:hover , #list a:active {
+	background-color: gold;
+	color: #000;
 }
 
 .cat{
@@ -273,13 +472,18 @@ input{
 }
 
 
-html , form , p , b , body  , .btn , h1 , h2 , h3 , div , .cat , .cat-long , marquee , .row , a , #list , #list a  {
+/*html , form , p , b , body  , .btn , h1 , h2 , h3 , div , .cat , .cat-long , marquee , .row , a , #list , #list a  {
 		direction: auto; 
 		text-align: start;
 		unicode-bidi: plaintext;
-}
+}*/
 
 @media only screen and (max-width: 800px) {
+
+.service_card{
+	width: 45%;
+	margin: 5px;
+}
 
 #bottom{text-align: end;
 	text-align: left;
@@ -320,7 +524,7 @@ html , form , p , b , body  , .btn , h1 , h2 , h3 , div , .cat , .cat-long , mar
  width: 32%;
 }
 
-.detailes , .detailes .left , .detailes .right , textarea , button {
+.detailes , .detailes .left , .detailes .right , textarea , button , #post button {
 	margin: 0px;
 	width: 98%;
 	padding: 5px;
@@ -350,8 +554,8 @@ input{
 }
 
 .cat {
-	width: 92%;
-	margin:3%;
+	width: 46%;
+	margin:1%;
 	padding: 1%;
 }
 
@@ -360,8 +564,32 @@ input{
 }
 
 .emp-card{
-	width: 93%;
+	width: 42%;
 	margin: 2%;
+	padding: 2%;
+	height: 300px;
+	border-radius: 5px;
 }
 
+.emp-card img{
+	width: 100%;
+	height: 110px;
+	border-bottom: solid 2px black;
+	margin-bottom: 10px;
+}
+
+.emp-card img{
+	width: 100%;
+	height: 110px;
+	border-bottom: solid 2px black;
+	margin-bottom: 10px;
+}
+
+.forum-card{
+	width: 98%;
+}
+
+.forum-card .topic-image{
+	width: 97%;
+	height: 90px;
 }

@@ -54,7 +54,7 @@ include 'lang/ar.php';
 include 'header.php';
 ?>
 
-<div id="login" style="width: 80%;height: 100%;background-color: #123;color: #fff;border-radius: 5px;box-shadow: 2px 2px 2px #123;">
+<div id="login" style="width: 80%;height: 100%;background-color: #123;color: #fff;">
 	
 <h3 style="text-align: center;"> تسجيل دخول لمنصة </h3>	<br/>
 
@@ -77,6 +77,10 @@ include 'header.php';
 	<i style="padding: 10px;" class="icon-2x icon-google-plus-sign" ></i>
 
 </center>
+
+<br/>
+
+<a href="create_post.php"> إنشاء منشور   </a>
 
 <br/>
 
