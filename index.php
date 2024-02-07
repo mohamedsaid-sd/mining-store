@@ -74,7 +74,7 @@ include 'header.php';
 </div> -->
 
 <div id="list"> 
-<a href="#"> الرئيسية </a>
+<a href="#"> iالرئيسية </a>
 <a href="forum.php"> المنتدي </a>
 </div>
 
