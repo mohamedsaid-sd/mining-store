@@ -27,22 +27,21 @@ include 'lang/ar.php';
 <html>
 <head>
 	<title> <?php echo _employment; ?> </title>
-		<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-		<?php 
-	if($_SESSION['lang'] == 'en'){
-	?>
-	<link rel="stylesheet" type="text/css" href="css/style-ar.css">
-	<!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
-	<?php
-	}else{
-	?>
-	<link rel="stylesheet" type="text/css" href="css/style-ar.css">
-	<?php
-	}
-	?>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+		  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <!-- Template Main CSS File -->
+  <link rel="stylesheet" type="text/css" href="css/style-ar.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css" >
+
 </head>
 <style type="text/css">
 
@@ -78,147 +77,129 @@ include 'header.php';
 
 <a href="employment/home.php?id=all">
 <div class="cat">
-	الهندسة
-	<br/>
-	<img src="image/job/job.png"/>
+<img src="image/job/job.png"/>
+<b>	الهندسة</b>
 </div>
 </a>
 
 <a href="employment/home.php?id=all">
 <div class="cat">
-	التسوييق والعلاقات العامة
-	<br/>
-	<img src="image/job/job.png"/>
+<img src="image/job/job.png"/>
+<b>التسوييق والعلاقات العامة</b>
 </div>
 </a>
 
 
-<a href="equipment/heavy.php?id=all">
+<a href="#">
 <div class="cat">
-	تقنية المعلومات
-	<br/>
-	<img src="image/job/job.png"/>
+<img src="image/job/job.png"/>
+<b>تقنية المعلومات</b>
 </div>
 </a>
 
 
-<a href="employment/home.php?id=all">
+<a href="#">
 <div class="cat">
-	الوظائف القانونية
-	<br/>
-	<img src="image/job/job.png"/>
+<img src="image/job/job.png"/>
+<b>الوظائف القانونية</b>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-	وظائف المربيات
-	<br/>
-	<img src="image/job/job.png"/>
+<img src="image/job/job.png"/>
+<b>وظائف المربيات</b>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-	القيادة والتوصيل
-	<br/>
-	<img src="image/job/job.png"/>
+<img src="image/job/job.png"/>
+<b>القيادة والتوصيل</b>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-	الفنيون والعمال
-	<br/>
-	<img src="image/job/job.png"/>
+<img src="image/job/job.png"/>
+<b>	الفنيون والعمال</b>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-	وظائف التصنيع
-	<br/>
-	<img src="image/job/job.png"/>
+<img src="image/job/job.png"/>
+<b>وظائف التصنيع</b>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-	الموارد البشرية
-	<br/>
-	<img src="image/job/job.png"/>
+<img src="image/job/job.png"/>
+<b>الموارد البشرية</b>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-	التعليم والتدريب
-	<br/>
-	<img src="image/job/job.png"/>
+<img src="image/job/job.png"/>
+<b>التعليم والتدريب</b>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-	وظائف الحراسة والامن
-	<br/>
-	<img src="image/job/job.png"/>
+<img src="image/job/job.png"/>
+<b>وظائف الحراسة والامن</b>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-	اللوجستيات
-	<br/>
-	<img src="image/job/job.png"/>
+<img src="image/job/job.png"/>
+<b>اللوجستيات</b>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-	الضيافة والاستقبال
-	<br/>
-	<img src="image/job/job.png"/>
+<img src="image/job/job.png"/>
+<b>الضيافة والاستقبال</b>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-	خدمة العملاء
-	<br/>
-	<img src="image/job/job.png"/>
+<img src="image/job/job.png"/>
+<b>خدمة العملاء</b>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-	الإعلام والصحافة
-	<br/>
-	<img src="image/job/job.png"/>
+<img src="image/job/job.png"/>
+<b>الإعلام والصحافة</b>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-	المبيعات والتجزئة
-	<br/>
-	<img src="image/job/job.png"/>
+<img src="image/job/job.png"/>
+<b>المبيعات والتجزئة</b>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-	السبا والصالونات 
-	<br/>
-	<img src="image/job/job.png"/>
+<img src="image/job/job.png"/>
+<b>	السبا والصالونات </b>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-	وظائف اخرى
-	<br/>
-	<img src="image/job/job.png"/>
+<img src="image/job/job.png"/>
+<b>وظائف اخرى</b>
 </div>
 </a>
 
@@ -305,4 +286,6 @@ include 'header.php';
 <?php include 'footer.php'; ?>
 
 </body>
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 </html>

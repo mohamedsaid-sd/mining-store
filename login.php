@@ -51,14 +51,14 @@ include 'lang/ar.php';
 
 <?php 
 // Include the header 
-include 'header.php';
+//include 'header.php';
 ?>
 
 <div id="login" style="width: 80%;height: 100%;background-color: #123;color: #fff;">
 	
 <h3 style="text-align: center;"> تسجيل دخول لمنصة </h3>	<br/>
 
-<img src="image/logo.png" style="width: 200px;" /><br/><br/>
+<a href="index.php"><img src="image/logo.png" style="width: 200px;" /><br/></a><br/>
 
 <input type="text" class="form-control" name="user" placeholder="إسم المستخدم " required><br/>
 
@@ -88,4 +88,6 @@ include 'header.php';
 
 
 </body>
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 </html>

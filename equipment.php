@@ -27,22 +27,21 @@ include 'lang/ar.php';
 <html>
 <head>
 	<title> <?php echo _EQUIPMENT; ?> </title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-		<?php 
-	if($_SESSION['lang'] == 'en'){
-	?>
-	<link rel="stylesheet" type="text/css" href="css/style-ar.css">
-	<!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
-	<?php
-	}else{
-	?>
-	<link rel="stylesheet" type="text/css" href="css/style-ar.css">
-	<?php
-	}
-	?>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <!-- Template Main CSS File -->
+  <link rel="stylesheet" type="text/css" href="css/style-ar.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css" >
 
 </head>
 <style type="text/css">
@@ -74,67 +73,51 @@ include 'header.php';
 
 <a href="equipment/trucks.php">
 <div class="cat">
-	
-	<?php echo _TRUCKS; ?>
-	<br/>
-	<img src="image/equipment/truck.png"/>
+<img src="image/equipment/truck.png"/>
+<b><?php echo _TRUCKS; ?></b>
 </div>
 </a>
 
 <a href="equipment/heavy.php">
 <div class="cat">
-	<?php echo _HEAVY; ?>
-	<br/>
-	<img src="image/equipment/heavy.png"/>
+<img src="image/equipment/heavy.png"/>
+<b><?php echo _HEAVY; ?></b>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-	
-	<?php echo _ACCESSORY; ?><br/>
-	<img src="image/equipment/accessores.png"/>
-
+<img src="image/equipment/accessores.png"/>
+<b><?php echo _ACCESSORY; ?></b>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-	
-	<?php echo _MAIGRATION; ?>
-	<br/>
-	<img src="image/equipment/transport.png"/>
-
+<img src="image/equipment/transport.png"/>
+<b><?php echo _MAIGRATION; ?></b>
 </div>
 </a>
 
 
 <a href="#">
 <div class="cat">
-	
-	<?php echo _GENERATOR; ?>
-	<img src="image/equipment/generators.png"/>
-
+<img src="image/equipment/generators.png"/>
+<b><?php echo _GENERATOR; ?></b>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-	
-	<?php echo _MAINTENCE; ?>
-	<br/>
-	<img src="image/equipment/maintenance.png"/>
-
+<img src="image/equipment/maintenance.png"/>
+<b><?php echo _MAINTENCE; ?></b>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-	
-
-	<?php echo _other; ?><br/>
-	<img src="image/main/truck.png"/>
-
+<img src="image/main/truck.png"/>
+<b><?php echo _other; ?></b>
 </div>
 </a>
 
@@ -146,4 +129,6 @@ include 'header.php';
 <?php include 'footer.php'; ?>
 
 </body>
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 </html>

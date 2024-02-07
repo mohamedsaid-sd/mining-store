@@ -65,8 +65,13 @@ include '../lang/ar.php';
 <hr style="background-color: gold;height: 5px; border:none;box-shadow: 2px 2px 2px #333;" />
 </section>
 
-<br/>
-<h4><?php echo _detailes; ?></h4>
+
+<a style="background:none;" href="#">
+<div id="page-title">
+ &nbsp
+<?php echo _detailes; ?>
+</div>
+</a>
 
 <div class="row" style="margin: 2px;font-weight: bold;">
 <br/>
@@ -180,17 +185,17 @@ include '../lang/ar.php';
 
 <h3> التعليقات </h3>
 
-<h4> - Mohamed Said </h4>
+<h3> - Mohamed Said </h3>
  <div style="font-size: 15px;background-color: #fff;width: 98%;padding: 10px;border-radius: 10px;font-style: normal;color: #000;">
  	 المنتج رائع وجميل ومن السهل التعامل مع البائع
  </div>
 
- <h4> - Ahmed Abdo </h4>
+ <h3> - Ahmed Abdo </h3>
  <div style="font-size: 15px;background-color: #fff;width: 98%;padding: 10px;border-radius: 10px;font-style: normal;color: #000;">
  	 هل يوجد نفس المنتج مع سنة صنع 2010
  </div>
 
-  <h4> - Rania aWad </h4>
+  <h3> - Rania aWad </h3>
  <div style="font-size: 15px;background-color: #fff;width: 98%;padding: 10px;border-radius: 10px;font-style: normal;color: #000;">
  	 I ask for it alraey and it's ready 
  </div>

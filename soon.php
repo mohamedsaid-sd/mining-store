@@ -27,21 +27,22 @@ include 'lang/ar.php';
 <html>
 <head>
 	<title> موقع سوق التعدين </title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-	<?php 
-	if($_SESSION['lang'] == 'en'){
-	?>
-<link rel="stylesheet" type="text/css" href="css/style-ar.css">
-	<?php
-	}else{
-	?>
-	<link rel="stylesheet" type="text/css" href="css/style-ar.css">
-	<?php
-	}
-	?>
+
+	  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <!-- Template Main CSS File -->
+  <link rel="stylesheet" type="text/css" href="css/style-ar.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css" >
+
 </head>
 <style type="text/css">
 	center{
@@ -71,4 +72,6 @@ include 'header.php';
 </center>
 
 </body>
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 </html>

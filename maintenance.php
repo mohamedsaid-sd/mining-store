@@ -27,21 +27,21 @@ include 'lang/ar.php';
 <html>
 <head>
 	<title>  الصيانة </title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-	<?php 
-	if($_SESSION['lang'] == 'en'){
-	?>
-<link rel="stylesheet" type="text/css" href="css/style-ar.css">
-	<?php
-	}else{
-	?>
-	<link rel="stylesheet" type="text/css" href="css/style-ar.css">
-	<?php
-	}
-	?>
+					  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <!-- Template Main CSS File -->
+  <link rel="stylesheet" type="text/css" href="css/style-ar.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css" >
+
 </head>
 <style type="text/css">
 
@@ -64,63 +64,60 @@ include 'header.php';
 <div class="row" style="margin: 2px;font-weight: bold;">
 
 
-<a href="">
+<a href="consulatations/home.php">
 <div class="cat">
-مكنيكا
-	<br/>
-	<img src="image/main/spare.png"/>
-</div>
-</a>
-
-<a href="#">
-<div class="cat">
-كهرباء
-	<br/>
-	<img src="image/main/spare.png"/>
-</div>
-</a>
-
-
-<a href="#">
-<div class="cat">
-مخرطة
 <img src="image/main/spare.png"/>
+<b>مكنيكا</b>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-تكييف
 <img src="image/main/spare.png"/>
+<b>كهرباء</b>
+</div>
+</a>
+
+
+<a href="#">
+<div class="cat">
+<img src="image/main/spare.png"/>
+<b>مخرطة</b>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-تركيب زجاج
 <img src="image/main/spare.png"/>
+<b>تكييف</b>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-سمكرة
 <img src="image/main/spare.png"/>
+<b>تركيب زجاج</b>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-بوهية
 <img src="image/main/spare.png"/>
+<b>سمكرة</b>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-بنشر
-<br/>
 <img src="image/main/spare.png"/>
+<b>بوهية</b>
+</div>
+</a>
+
+<a href="#">
+<div class="cat">
+<img src="image/main/spare.png"/>
+<b>بنشر</b>
 </div>
 </a>
 
@@ -133,4 +130,6 @@ include 'header.php';
 <?php include 'footer.php'; ?>
 
 </body>
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 </html>

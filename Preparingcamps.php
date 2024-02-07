@@ -27,21 +27,23 @@ include 'lang/ar.php';
 <html>
 <head>
 	<title>  تجهيز المعسكرات </title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-	<?php 
-	if($_SESSION['lang'] == 'en'){
-	?>
-<link rel="stylesheet" type="text/css" href="css/style-ar.css">
-	<?php
-	}else{
-	?>
-	<link rel="stylesheet" type="text/css" href="css/style-ar.css">
-	<?php
-	}
-	?>
+
+	  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <!-- Template Main CSS File -->
+  <link rel="stylesheet" type="text/css" href="css/style-ar.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css" >
+
+
 </head>
 <style type="text/css">
 
@@ -73,103 +75,83 @@ include 'header.php';
 
 <a href="camps/home.php">
 <div class="cat">
-رسم الخرائط
-	<br/>
-	<img src="image/camps/map.png"/>
+<img src="image/camps/map.png"/>
+<b>رسم الخرائط</b>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-تأسيس المباني	<br/>
-	<img src="image/camps/const.png"/>
+<img src="image/camps/const.png"/>
+<b>تأسيس المباني</b>
 </div>
 </a>
 
 
 <a href="#">
 <div class="cat">
-	
-توفير الكرفانات
 <img src="image/camps/carfan.png"/>
-
+<b>توفير الكرفانات</b>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-	
-تأسيس الورش	
 <img src="image/camps/workshop.png"/>
-
+<b>تأسيس الورش	</b>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-	
-التسوير<br/>
-	<img src="image/camps/map.png"/>
-
+<img src="image/camps/map.png"/>
+<b>التسوير</b>
 </div>
 </a>
 
 
 <a href="#">
-<div class="cat">
-	
-تعبيد الطرق الداخلية	
+<div class="cat">	
 <img src="image/camps/road.png"/>
-
+<b>تعبيد الطرق الداخلية</b>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-	
-الأمن والسلامة<br/>
-	<img src="image/camps/saf.png"/>
-
+<img src="image/camps/saf.png"/>
+<b>الأمن والسلامة</b>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-	
-التوصيلات الكهربائية
 <img src="image/camps/silk.png"/>
-
+<b>التوصيلات الكهربائية</b>
 </div>
 </a>
 
 
 <a href="#">
 <div class="cat">
-
-توصيلات المياه والمصارف	
-<br/>
 <img src="image/camps/pipee.png"/>
-
+<b>توصيلات المياه والمصارف	</b>
 </div>
 </a>
 
 
 <a href="#">
 <div class="cat">
-	
-تخزين المياه والجاز
 <img src="image/camps/water.png"/>
-
+<b>تخزين المياه والجاز</b>
 </div>
 </a>
 
 
 <a href="#">
 <div class="cat">
-	
-الإنترنت والشبكات
 <img src="image/camps/internet.png"/>
-
+<b>الإنترنت والشبكات</b>
 </div>
 </a>
 </div>
@@ -180,4 +162,6 @@ include 'header.php';
 <?php include 'footer.php'; ?>
 
 </body>
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 </html>

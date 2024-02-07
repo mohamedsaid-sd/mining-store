@@ -147,17 +147,17 @@ include '../lang/ar.php';
 
 <h3> التعليقات </h3>
 
-<h4> - Omer Khaled </h4>
+<h5> - Omer Khaled </h5>
  <div style="font-size: 15px;background-color: #fff;width: 98%;padding: 10px;border-radius: 10px;font-style: normal;color: #000;">
  	هل يشترط علي المتقدم ان يكون من نفس الولاية
  </div>
 
- <h4> - Ahmed al-jak </h4>
+ <h5> - Ahmed al-jak </h5>
  <div style="font-size: 15px;background-color: #fff;width: 98%;padding: 10px;border-radius: 10px;font-style: normal;color: #000;">
  	 عمري 25 عام هل اصلح للوظيفة
  </div>
 
-  <h4> - Salem aWad </h4>
+  <h5> - Salem aWad </h5>
  <div style="font-size: 15px;background-color: #fff;width: 98%;padding: 10px;border-radius: 10px;font-style: normal;color: #000;">
  	 Can I work just 4 month
  </div>

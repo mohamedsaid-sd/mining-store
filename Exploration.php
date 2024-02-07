@@ -27,21 +27,23 @@ include 'lang/ar.php';
 <html>
 <head>
 	<title>  الاستكشاف </title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-	<?php 
-	if($_SESSION['lang'] == 'en'){
-	?>
-<link rel="stylesheet" type="text/css" href="css/style-ar.css">
-	<?php
-	}else{
-	?>
-	<link rel="stylesheet" type="text/css" href="css/style-ar.css">
-	<?php
-	}
-	?>
+
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <!-- Template Main CSS File -->
+  <link rel="stylesheet" type="text/css" href="css/style-ar.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css" >
+
 </head>
 <style type="text/css">
 
@@ -73,94 +75,75 @@ include 'header.php';
 
 <a href="exploration/home.php">
 <div class="cat">
-صور الأقمار الصناعية
-	<br/>
 	<img src="image/exploration/satlite.png"/>
+	<b> صور الأقمار الصناعية </b>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-البحث الأولي
-	<br/>
 	<img src="image/equipment/heavy.png"/>
+	<b> البحث الأولي </b>
 </div>
 </a>
 
 
 <a href="#">
 <div class="cat">
-	
-أخذ العينات	
 <img src="image/exploration/sample.png"/>
-
+<b>أخذ العينات	</b>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-	
-تحليل العينات
-	<img src="image/exploration/anliys.png"/>
-
+<img src="image/exploration/anliys.png"/>
+<b>تحليل العينات</b>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-	
-حفر الخنادق	
-<br/>
-	<img src="image/exploration/digg.png"/>
-
+<img src="image/exploration/digg.png"/>
+<b> حفر الخنادق	 </b>
 </div>
 </a>
 
 
 <a href="#">
 <div class="cat">
-	
-حفر ال RC
-	<img src="image/exploration/dig2.png"/>
-
+<img src="image/exploration/dig2.png"/>
+<b>حفر ال RC</b>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-	
-حفر ال CORE.	<br/>
-	<img src="image/exploration/dig1.png"/>
-
+<img src="image/exploration/dig1.png"/>
+<b> حفر ال CORE. </b>
 </div>
 </a>
 
 <a href="#">
-<div class="cat">
-	
-التحليل الجيولوجي للمناجم	
+<div class="cat">		
 <img src="image/exploration/gelogy.png"/>
-
+<b>التحليل الجيولوجي للمناجم</b>
 </div>
 </a>
 
 
 <a href="#">
 <div class="cat">
-	
-رسم خرائط المناجم
 <img src="image/exploration/map.png"/>
-
+<b>رسم خرائط المناجم</b>
 </div>
 </a>
 
 
 <a href="#">
 <div class="cat">
-	
-التقارير الفنية
 <img src="image/exploration/reports.png"/>
-
+<b>التقارير الفنية</b>
 </div>
 </a>
 
@@ -172,4 +155,6 @@ include 'header.php';
 <?php include 'footer.php'; ?>
 
 </body>
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 </html>

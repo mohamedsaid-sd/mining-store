@@ -25,28 +25,28 @@ include 'lang/ar.php';
 ?>
 <!DOCTYPE html>
 <html>
-<head>
-	<title> <?php echo _HOME; ?> </title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-		<?php 
-	if($_SESSION['lang'] == 'en'){
-	?>
-	<link rel="stylesheet" type="text/css" href="css/style-ar.css">
-	<!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
-	<?php
-	}else{
-	?>
-	<link rel="stylesheet" type="text/css" href="css/style-ar.css">
-	<?php
-	}
-	?>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-
+<head>  
+  <title> منصة سوق التعدين </title>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <!-- Template Main CSS File -->
+  <link rel="stylesheet" type="text/css" href="css/style-ar.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css" >
 
 </head>
 <body>
+
+
 
 <?php 
 // Include the header 
@@ -73,117 +73,100 @@ include 'header.php';
 <a href=""> <?php echo _ABOUT; ?> </a> 
 </div> -->
 
-<div id="list"> 
-<a href="#"> iالرئيسية </a>
-<a href="forum.php"> المنتدي </a>
-</div>
 
-<br/>
+
+ <a href="index.php">
+<div id="page-title">
+<?php echo _DEPARTMENTS; ?> 
+</div></a>
 
 <marquee style="background-color: #ffe;padding: 10px;margin-top: 10px;font-weight: bold;" direction="right"> <?php echo _WEB_SITE_NAME; ?> مرحبا بكم في موقع سوق التعدين نرحب بكل الاعضاء الجدد ونتمني لكم تجربه ممتعة ومفيدة معنا , اخر اخبار السوق اليوم متوفرة عروض ممتازة علي المعدات في صفحة المعدات , تراجع ملحوظ لاسعار الذهب اليوم مقابل الدولار مما يعني توقع انخفاضه الاسبوع المقبل , لقد وفرنا لاعضائنا الكرام مجموعة من الخدمات المتعلقة بالكهرباء والمكنيكا مع موظفين باعلي الخبراء للتقام بعمليات الصيانه من اجلكم ... للمذيد من الاخبار الرجار تصفح قسم الاخبار في الموقع   </marquee>
-
-
-
-<br/>
-<h4> <?php echo _DEPARTMENTS; ?> </h4>
 
 <div class="row" style="margin: 2px;font-weight: bold;">
 
 <a href="mining_sites.php">
 <div class="cat">
-	<?php echo _Miningsites; ?>
-	<br/>
-	<img src="image/main/sites.png"/>
+	<img src="image/303486.jpg"/>
+	<b><?php echo _Miningsites; ?></b>
 </div>
 </a>
 
 <a href="Exploration.php">
 <div class="cat">	
-	<?php echo _Exploration; ?>
-	<img src="image/main/explore.png"/>
-
+	<img src="image/download.jfif"/>
+	<b><?php echo _Exploration; ?></b>
 </div>
 </a>
 
 <a href="Preparingcamps.php">
 <div class="cat">
-	<?php echo _Preparingcamps; ?>
-	<br/>
 	<img src="image/main/camps.png"/>
+	<b><?php echo _Preparingcamps; ?></b>
 </div>
 </a>
 
 <a href="Miningcontracting.php">
 <div class="cat">
-	<?php echo _Miningcontracting
-; ?>
-	<br/>
 	<img src="image/main/malta3.png"/>
+	<b><?php echo _Miningcontracting; ?></b>
 </div>
 </a>
 
 <a href="process/home.php">
 <div class="cat">
-	<?php echo _Extraction; ?>
-	<br/>
 	<img src="image/main/pro&extr.png"/>
+	<b><?php echo _Extraction; ?></b>
 </div>
 </a>
 
 <a href="equipment.php">
 <div class="cat">	
-	<?php echo _EQUIPMENT; ?>
-	<br/>
 	<img src="image/main/truck.png"/>
+	<b><?php echo _EQUIPMENT; ?></b>
 </div>
 </a>
 
 <a href="maintenance.php">
 <div class="cat">
-	الصيانة
-	<br/>
 	<img src="image/main/spare.png"/>
+	<b> الصيانة </b>
 </div>
 </a>
 
 <a href="spare.php">
 <div class="cat">
-	الاسبيرات
-	<br/>
 	<img src="image/main/spare.png"/>
+	<b> الاسبيرات </b>
 </div>
 </a>
 
 <a href="consulatations.php">
 <div class="cat">
-	<?php echo _Consulting; ?>
-	<br/>
 	<img src="image/main/consol.png"/>
+	<b> <?php echo _Consulting; ?> </b>
 </div>
 </a>
 
 
 <a href="employment.php">
 <div class="cat">
-	<?php echo _employment; ?>
-	<br/>
+	
 	<img src="image/main/emp.png"/>
+	<b> <?php echo _employment; ?> </b>
 </div>
 </a>
 
 <a href="services.php">
 <div class="cat">
-	<?php echo _SERVICES; ?>
-	<br/>
 	<img src="image/main/services.png"/>
+	<b> <?php echo _SERVICES; ?> </b>
 </div>
 </a>
 
 <a href="soon.php">
 <div class="cat">
-	<?php echo _procedures; ?>
-	<br/>
 	<img src="image/main/prod.png"/>
+	<b><?php echo _procedures; ?></b>
 </div>
 </a>
 
@@ -196,6 +179,10 @@ include 'header.php';
 
 <?php include 'footer.php'; ?>
 
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
 
 </body>
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 </html>

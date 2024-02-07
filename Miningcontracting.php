@@ -27,21 +27,23 @@ include 'lang/ar.php';
 <html>
 <head>
 	<title> مقاولات التعدين </title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-	<?php 
-	if($_SESSION['lang'] == 'en'){
-	?>
-<link rel="stylesheet" type="text/css" href="css/style-ar.css">
-	<?php
-	}else{
-	?>
-	<link rel="stylesheet" type="text/css" href="css/style-ar.css">
-	<?php
-	}
-	?>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <!-- Template Main CSS File -->
+  <link rel="stylesheet" type="text/css" href="css/style-ar.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css" >
+
+
 </head>
 <style type="text/css">
 
@@ -72,78 +74,58 @@ include 'header.php';
 
 <a href="mining_contracting/home.php">
 <div class="cat">
-الحفر
-	<br/>
-	<img src="image/contracting/dig.png"/>
+<img src="image/contracting/dig.png"/>
+<b>الحفر</b>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-التخريم
-	<br/>
-	<img src="image/contracting/machien.png"/>
+<img src="image/contracting/machien.png"/>
+<b>التخريم</b>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-النقل
-	<br/>
-	<img src="image/contracting/crins.png"/>
-
+<img src="image/contracting/crins.png"/>
+<b>النقل</b>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-التفجير
-	<br/>
-	<img src="image/contracting/explo.png"/>
+<img src="image/contracting/explo.png"/>
+<b>التفجير</b>
 </div>
 </a>
 
 
 <a href="#">
 <div class="cat">
-	
-التشوين
-	<br/>
-	<img src="image/contracting/signal.png"/>
-
-</div>
-</a>
-
-
-
-
-<a href="#">
-<div class="cat">
-	
-عمل الردميات
-	<br/>
-	<img src="image/contracting/sand.png"/>
-
+<img src="image/contracting/signal.png"/>
+<b>التشوين</b>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-	
-تجهيز الأحواض
-	<br/>
-	<img src="image/contracting/hood.png"/>
-
+<img src="image/contracting/sand.png"/>
+<b>عمل الردميات</b>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-	
-توصيل خطوط المياه
-	<br/>
-	<img src="image/contracting/pipee.png"/>
+<img src="image/contracting/hood.png"/>
+<b>تجهيز الأحواض</b>
+</div>
+</a>
 
+<a href="#">
+<div class="cat">
+<img src="image/contracting/pipee.png"/>
+<b>توصيل خطوط المياه</b>
 </div>
 </a>
 
@@ -155,4 +137,6 @@ include 'header.php';
 <?php include 'footer.php'; ?>
 
 </body>
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 </html>
