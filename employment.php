@@ -77,14 +77,14 @@ include 'header.php';
 
 <a href="employment/home.php?id=all">
 <div class="cat">
-<img src="image/job/job.png"/>
+<img src="image/employees/emp3.jpg"/>
 <b>	الهندسة</b>
 </div>
 </a>
 
 <a href="employment/home.php?id=all">
 <div class="cat">
-<img src="image/job/job.png"/>
+<img src="image/employees/emp13.jpg"/>
 <b>التسوييق والعلاقات العامة</b>
 </div>
 </a>
@@ -92,7 +92,7 @@ include 'header.php';
 
 <a href="#">
 <div class="cat">
-<img src="image/job/job.png"/>
+<img src="image/employees/emp9.jpg"/>
 <b>تقنية المعلومات</b>
 </div>
 </a>
@@ -100,98 +100,98 @@ include 'header.php';
 
 <a href="#">
 <div class="cat">
-<img src="image/job/job.png"/>
+<img src="image/employees/emp12.jpg"/>
 <b>الوظائف القانونية</b>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-<img src="image/job/job.png"/>
+<img src="image/employees/emp14.jpg"/>
 <b>وظائف المربيات</b>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-<img src="image/job/job.png"/>
+<img src="image/employees/emp15.jpg"/>
 <b>القيادة والتوصيل</b>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-<img src="image/job/job.png"/>
+<img src="image/employees/emp11.jpg"/>
 <b>	الفنيون والعمال</b>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-<img src="image/job/job.png"/>
+<img src="image/employees/emp6.jpg"/>
 <b>وظائف التصنيع</b>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-<img src="image/job/job.png"/>
+<img src="image/employees/emp5.jpg"/>
 <b>الموارد البشرية</b>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-<img src="image/job/job.png"/>
+<img src="image/employees/emp1.jpg"/>
 <b>التعليم والتدريب</b>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-<img src="image/job/job.png"/>
+<img src="image/employees/emp16.jpg"/>
 <b>وظائف الحراسة والامن</b>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-<img src="image/job/job.png"/>
+<img src="image/employees/emp10.jpg"/>
 <b>اللوجستيات</b>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-<img src="image/job/job.png"/>
+<img src="image/employees/emp2.jpg"/>
 <b>الضيافة والاستقبال</b>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-<img src="image/job/job.png"/>
+<img src="image/employees/emp8.jpg"/>
 <b>خدمة العملاء</b>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-<img src="image/job/job.png"/>
+<img src="image/employees/emp7.jpg"/>
 <b>الإعلام والصحافة</b>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-<img src="image/job/job.png"/>
+<img src="image/employees/emp10.jpg"/>
 <b>المبيعات والتجزئة</b>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-<img src="image/job/job.png"/>
+<img src="image/employees/emp17.jpg"/>
 <b>	السبا والصالونات </b>
 </div>
 </a>
@@ -202,83 +202,8 @@ include 'header.php';
 <b>وظائف اخرى</b>
 </div>
 </a>
-
 </div>
 
-<!-- <a href="employment/home.php">
-<div class="cat-long">
-	الهندسة
-	<br/>
-	<img src="image/job/job.png"/>
-</div>
-</a>
-
-
-<a href="#">
-<div class="cat-long">
-	
-	التسوييق والعلاقات العامة
-	<br/>
-	<img src="image/job/job.png"/>
-
-</div>
-</a>
-
-<a href="#">
-<div class="cat-long">
-	تقنية المعلومات
-	<br/>
-	<img src="image/job/job.png"/>
-</div>
-</a>
-
-
-
-
-<a href="#">
-<div class="cat-long">
-	
-	الادارة
-	<br/>
-	<img src="image/job/job.png"/>
-
-</div>
-</a>
-
-<a href="#">
-<div class="cat-long">
-	التصميم والفنوان
-	<br/>
-	<img src="image/job/job.png"/>
-</div>
-</a>
-
-<a href="#">
-<div class="cat-long">
-	الرعاية الصحية والتمريض
-	<br/>
-	<img src="image/job/job.png"/>
-</div>
-</a>
-
-<a href="#">
-<div class="cat-long">
-	القيادة والتوصيل
-	<br/>
-	<img src="image/job/job.png"/>
-</div>
-</a>
-
-
-
-
-
-
-
-
-
-
- -->
 
 
 

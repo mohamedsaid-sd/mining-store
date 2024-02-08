@@ -306,12 +306,16 @@ header button , header img {
 }
 
 .cat b{
+	text-align: center;
+	align-items: center;
+	vertical-align: center;
+	height: 50px;
 	display: block;
 	background-color: #00000099;
 	width: 91%;
 	color: #ffffff;
 	position: relative;
-	top: -55px;
+	top: -70px;
 	padding: 10px;
 	border-radius: 0px 0px 10px 10px;
 }

@@ -86,63 +86,63 @@ include 'header.php';
 
 <a href="mining_sites.php">
 <div class="cat">
-	<img src="image/303486.jpg"/>
+	<img src="image/main/sites.jpg"/>
 	<b><?php echo _Miningsites; ?></b>
 </div>
 </a>
 
 <a href="Exploration.php">
 <div class="cat">	
-	<img src="image/download.jfif"/>
+	<img src="image/main/explore.jpg"/>
 	<b><?php echo _Exploration; ?></b>
 </div>
 </a>
 
 <a href="Preparingcamps.php">
 <div class="cat">
-	<img src="image/main/camps.png"/>
+	<img src="image/main/camps.jpg"/>
 	<b><?php echo _Preparingcamps; ?></b>
 </div>
 </a>
 
 <a href="Miningcontracting.php">
 <div class="cat">
-	<img src="image/main/malta3.png"/>
+	<img src="image/main/contract.jpg"/>
 	<b><?php echo _Miningcontracting; ?></b>
 </div>
 </a>
 
 <a href="process/home.php">
 <div class="cat">
-	<img src="image/main/pro&extr.png"/>
+	<img src="image/main/process.jpg"/>
 	<b><?php echo _Extraction; ?></b>
 </div>
 </a>
 
 <a href="equipment.php">
 <div class="cat">	
-	<img src="image/main/truck.png"/>
+	<img src="image/main/truck.jpg"/>
 	<b><?php echo _EQUIPMENT; ?></b>
 </div>
 </a>
 
 <a href="homemaintenance.php">
 <div class="cat">
-	<img src="image/main/spare.png"/>
+	<img src="image/main/maintans.jpg"/>
 	<b> الورش و الصيانة </b>
 </div>
 </a>
 
 <a href="homespare.php">
 <div class="cat">
-	<img src="image/main/spare.png"/>
+	<img src="image/main/spare.jpg"/>
 	<b> الاسبيرات </b>
 </div>
 </a>
 
 <a href="consulatations.php">
 <div class="cat">
-	<img src="image/main/consol.png"/>
+	<img src="image/main/consulate.jpg"/>
 	<b> <?php echo _Consulting; ?> </b>
 </div>
 </a>
@@ -151,21 +151,21 @@ include 'header.php';
 <a href="employment.php">
 <div class="cat">
 	
-	<img src="image/main/emp.png"/>
+	<img src="image/main/emp1.jpg"/>
 	<b> <?php echo _employment; ?> </b>
 </div>
 </a>
 
 <a href="services.php">
 <div class="cat">
-	<img src="image/main/services.png"/>
+	<img src="image/main/service.jpg"/>
 	<b> <?php echo _SERVICES; ?> </b>
 </div>
 </a>
 
 <a href="procedures.php">
 <div class="cat">
-	<img src="image/main/prod.png"/>
+	<img src="image/main/process.jpg"/>
 	<b><?php echo _procedures; ?></b>
 </div>
 </a>
