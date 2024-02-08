@@ -126,14 +126,14 @@ include 'header.php';
 </div>
 </a>
 
-<a href="maintenance.php">
+<a href="homemaintenance.php">
 <div class="cat">
 	<img src="image/main/spare.png"/>
-	<b> الصيانة </b>
+	<b> الورش و الصيانة </b>
 </div>
 </a>
 
-<a href="spare.php">
+<a href="homespare.php">
 <div class="cat">
 	<img src="image/main/spare.png"/>
 	<b> الاسبيرات </b>
@@ -163,7 +163,7 @@ include 'header.php';
 </div>
 </a>
 
-<a href="soon.php">
+<a href="procedures.php">
 <div class="cat">
 	<img src="image/main/prod.png"/>
 	<b><?php echo _procedures; ?></b>
