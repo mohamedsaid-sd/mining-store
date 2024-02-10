@@ -78,6 +78,7 @@ include '../lang/ar.php';
  الخدمات  <i class="icon-double-angle-left"> </i> خدمات الترجمة
 </div></a>
 
+<a href="detailes.php">
 <div class="service_card">
 <span class="fav"><i class="icon-heart-empty"></i></span>
 <img src="../image/eng.png">
@@ -87,6 +88,7 @@ include '../lang/ar.php';
 <span class="name"> ترجمة معتمدة ومرخصة وفورية لجميع اللغات وبس...  </span>
 <span class="price"> $200.00  </span>
 </div>
+</a>
 
 <div class="service_card">
 <span class="fav"><i class="icon-heart"></i></span>

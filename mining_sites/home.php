@@ -77,6 +77,7 @@ include '../lang/ar.php';
 
 <div class="row" style="margin: 2px;font-weight: bold;">
 
+<a href="detailes.php">
 <div class="service_card">
 <span class="fav"><i class="icon-heart"></i></span>
 <img src="../image/lands/images (1).jfif">
@@ -86,6 +87,7 @@ include '../lang/ar.php';
 <span class="name"> للبيع قطعة ارض للبيع ترخيص نهائى ...   </span>
 <span class="price"> $6,500.00 </span>
 </div>
+</a>
 
 <div class="service_card">
 <span class="fav"><i class="icon-heart-empty"></i></span>

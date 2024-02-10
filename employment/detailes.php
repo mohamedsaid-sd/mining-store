@@ -80,7 +80,7 @@ include '../lang/ar.php';
 
 <div class="right">
 <span style="float: left;" class="icon-heart-empty"></span><br/>
-<img src="../image/job/job.png">
+<img src="../image/employees/emp16.jpg">
 <!-- The Brand -->
 <b> مطلوب حارس امن  </b>
 
@@ -90,7 +90,7 @@ include '../lang/ar.php';
 
 
 <!-- The Size -->
-<p style="font-size: 14px;padding: 0px;font-weight: bold;"> 
+<p> 
 
  
 <!-- The Yeer -->

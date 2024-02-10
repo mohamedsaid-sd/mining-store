@@ -32,16 +32,21 @@ include 'lang/ar.php';
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta content="" name="description">
   <meta content="" name="keywords">
+
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+ <!--  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet"> -->
   <!-- Template Main CSS File -->
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/style-ar.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css" >
+
 
 </head>
 <body>
@@ -75,15 +80,72 @@ include 'header.php';
 
 
 
- <a href="index.php">
+<!--  <a href="index.php">
 <div id="page-title">
 <?php echo _DEPARTMENTS; ?> 
 </div></a>
+ -->
+<div id="hero">
+<h3> أهلا وسهلا ! </h3>
+<p>
+مرحبا في عالمنا الذي يقدم مجموعة من الخدمات في مجال التعدين والمعدات الثقيلة والتوظيف
+</p>
 
-<marquee style="background-color: #ffe;padding: 10px;margin-top: 10px;font-weight: bold;" direction="right"> <?php echo _WEB_SITE_NAME; ?> مرحبا بكم في موقع سوق التعدين نرحب بكل الاعضاء الجدد ونتمني لكم تجربه ممتعة ومفيدة معنا , اخر اخبار السوق اليوم متوفرة عروض ممتازة علي المعدات في صفحة المعدات , تراجع ملحوظ لاسعار الذهب اليوم مقابل الدولار مما يعني توقع انخفاضه الاسبوع المقبل , لقد وفرنا لاعضائنا الكرام مجموعة من الخدمات المتعلقة بالكهرباء والمكنيكا مع موظفين باعلي الخبراء للتقام بعمليات الصيانه من اجلكم ... للمذيد من الاخبار الرجار تصفح قسم الاخبار في الموقع   </marquee>
+    <section id="testimonials" class="testimonials section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
 
-<div class="row" style="margin: 2px;font-weight: bold;">
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="image/banner2.png" class="testimonial-img" alt="">
+              </div>
+            </div><!-- End testimonial item -->
 
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="image/banner.png" class="testimonial-img" alt="">
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="image/banner.png" class="testimonial-img" alt="">
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="image/banner.png" class="testimonial-img" alt="">
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="image/banner.png" class="testimonial-img" alt="">
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+</div>
+
+<!-- <marquee style="background-color: #ffe;padding: 10px;margin-top: 10px;font-weight: bold;" direction="right"> <?php echo _WEB_SITE_NAME; ?> مرحبا بكم في موقع سوق التعدين نرحب بكل الاعضاء الجدد ونتمني لكم تجربه ممتعة ومفيدة معنا , اخر اخبار السوق اليوم متوفرة عروض ممتازة علي المعدات في صفحة المعدات , تراجع ملحوظ لاسعار الذهب اليوم مقابل الدولار مما يعني توقع انخفاضه الاسبوع المقبل , لقد وفرنا لاعضائنا الكرام مجموعة من الخدمات المتعلقة بالكهرباء والمكنيكا مع موظفين باعلي الخبراء للتقام بعمليات الصيانه من اجلكم ... للمذيد من الاخبار الرجار تصفح قسم الاخبار في الموقع   </marquee> -->
+
+<div id="main">
+<center>
+  <h3> إستعراض الاقسام </h3>
+  <p> نقدم لك خدمات مميزة تساعدك في مجال التعدين </p>
+</center>
+</div>
+
+<div class="row" style="margin: 2px;font-weight: bold;color: #000;background-color: #111;display: inline;">
+<br/>
 <a href="mining_sites.php">
 <div class="cat">
 	<img src="image/main/sites.jpg"/>
@@ -170,8 +232,8 @@ include 'header.php';
 </div>
 </a>
 
-
 </div>
+
 
 <br/><br/><br/><br/>
 
@@ -183,6 +245,14 @@ include 'header.php';
   <div id="preloader"></div>
 
 </body>
-  <!-- Template Main JS File -->
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="ssets/vendor/php-email-form/validate.js"></script>
+
   <script src="assets/js/main.js"></script>
 </html>

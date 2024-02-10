@@ -38,7 +38,7 @@
           </li> -->
           <li><a class="nav-link scrollto" href="#contact">
             <i class="icon-envelope"> </i>  التواصل</a></li><br/>
-           <li><a class="getstarted scrollto" href="#about"> سجل معنا</a></li><br/>
+           <li><a class="getstarted scrollto" href="register.php"> سجل معنا</a></li><br/>
           <li><a style="color: #123;background-color: gold;" class="getstarted scrollto" href="login.php">تسجيل الدخول</a></li>
       <!--    <li> <a  class="nav-link scrollto"href="#hero"> Eng </a> </li> <li> <a href="#hero"> ar </a>  </li> -->
         </ul> 

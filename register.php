@@ -27,7 +27,7 @@ include 'lang/ar.php';
 <!DOCTYPE html>
 <html>
 <head>
-	<title> تسجيل الدخول </title>
+	<title> إنشاء حساب </title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 		<?php 
@@ -60,33 +60,33 @@ include 'lang/ar.php';
 ?>
 
 <div id="login" style="width: 80%;height: 100%;background-color: #fff;color: #123;border-radius: 0px;border:none;box-shadow: none;">
-<h3 style="text-align: center;"> مرحبا بعودتك !</h3>		
-<h3 style="text-align: center;"> سعداء برؤيتك مرة <br/> اخرى </h3>	<br/>
+	
+<h3> مرحبا  ! </h3>
+<h3> قم بانشاء حساب </h3>	<br/>
 
-<input type="text" class="form-control" name="user" placeholder="إسم المستخدم " required><br/>
-
-<input type="password" name="user" placeholder="كلمة المررو " required><br/>
+<input type="text" class="form-control" name="user" placeholder=" الإسم بالكامل " required><br/>
+<input type="text" class="form-control" name="user" placeholder="  أدخل البريد الإلكتروني " required><br/>
+<input type="text" class="form-control" name="user" placeholder="  رقم الهاتف   " required><br/>
 <br/>
+<button style="background-color: gold;padding: 10px;width: 150px;font-weight: bold;border-radius: 10px;border:none;"> إنشاء حساب  </button><br/><br/>
 
-<a href="password.php"> نسيت كلمة المرور </a><br/><br/>
-<button style="background-color: gold;padding: 10px;width: 150px;font-weight: bold;border-radius: 10px;border:none;"> تسجيل الدخول  </button> 
+او قم بالتسجيل بواسطة <br/>
 
-<br/><br/>
-امتلك حساب الآن <a href="register.php" style="color: gold;"> سجل حساب </a>
-<br/><br/>
-
-<center>
-	تابع منصتنا علي <br/><br/>
+<br/>
 
 	<i style="padding: 10px;" class="icon-2x icon-facebook-sign" ></i>
 	<i style="padding: 10px;" class="icon-2x icon-twitter-sign" ></i>
 	<i style="padding: 10px;" class="icon-2x icon-google-plus-sign" ></i>
 
+<br/><br/>
+ او تمتلك حساب قم <br/><br/>
+  <a href="login.php"> بتسجيل الدخول   </a>
+
 </center>
 
 <br/>
 
-<a href="create_post.php"> إنشاء منشور   </a>
+
 
 <br/>
 

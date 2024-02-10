@@ -90,7 +90,7 @@ include '../lang/ar.php';
 
 
 <!-- The Size -->
-<p style="font-size: 14px;padding: 0px;font-weight: bold;"> 
+<p> 
  150 <span class="icon-resize-full"></span>
   - 
 <!-- The Yeer -->
