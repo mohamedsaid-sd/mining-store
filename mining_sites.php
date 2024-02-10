@@ -127,7 +127,7 @@ include 'header.php';
 <div class="row" style="margin: 2px;font-weight: bold;color:#123;">
 
 <a href="mining_sites/home.php">
-<div class="cat">
+<div class="cat-long">
 	<img src="image/sites/site1.png"/>
 	<b> مواقع ترخيص نهائى <br> 130 اعلان </b>
 
@@ -135,48 +135,48 @@ include 'header.php';
 </a>
 
 <a href="#">
-<div class="cat">
+<div class="cat-long">
 	<img src="image/sites/site2.png"/>
-	<b> مواقع ترخيص إبتدائى </b>
+	<b> مواقع ترخيص إبتدائى  <br> 92 اعلان </b>
 </div>
 </a>
 
 
 <a href="#">
-<div class="cat">
+<div class="cat-long">
 <img src="image/sites/site3.png"/>
-<b> مواقع تحت الدراسة </b>
+<b> مواقع تحت الدراسة <br> 100 اعلان </b>
 </div>
 </a>
 
 <a href="#">
-<div class="cat">
+<div class="cat-long">
 <img src="image/sites/site4.png"/>
-<b>مواقع تعديين اهلى</b>
+<b>مواقع تعديين اهلى <br> 86 اعلان</b>
 </div>
 </a>
 
 <a href="#">
-<div class="cat">
+<div class="cat-long">
 <img src="image/sites/site6.png"/>
-<b>مواقع طواحين</b>
+<b>مواقع طواحين <br> 27 اعلان </b>
 </div>
 </a>
 
 
 <a href="#">
-<div class="cat">
+<div class="cat-long">
 <img src="image/sites/site5.png"/>
-<b>مواقع خدمات عامة</b>
+<b>مواقع خدمات عامة <br> 50 اعلان </b>
 </div>
 </a>
+
 
 
 </div>
 
 
 <br/>
-
 <?php include 'footer.php'; ?>
 
 </body>

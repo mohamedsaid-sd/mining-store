@@ -72,6 +72,13 @@ include 'header.php';
 
 <div class="row" style="margin: 2px;font-weight: bold;">
 
+<a href="mining_contracting/clients.php">
+<div class="cat-long">
+  <img src="image/main/contract.jpg"/>
+  <b> وكلاء مقاولات التعدين <br/> 400 وكيل </b>
+</div>
+</a>
+
 <a href="mining_contracting/home.php">
 <div class="cat">
 <img src="image/contracting/dig.png"/>

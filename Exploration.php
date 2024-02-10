@@ -72,6 +72,12 @@ include 'header.php';
 
 <div class="row" style="margin: 2px;font-weight: bold;">
 
+<a href="exploration/clients.php">
+<div class="cat-long">
+  <img src="image/main/explore.jpg"/>
+  <b> وكلاء الاستكشاف <br/> 790 وكيل </b>
+</div>
+</a>
 
 <a href="exploration/home.php">
 <div class="cat">

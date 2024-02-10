@@ -71,6 +71,13 @@ include 'header.php';
 
 <div class="row" style="margin: 2px;font-weight: bold;">
 
+<a href="equipment/clients.php">
+<div class="cat-long">
+  <img src="image/main/contract.jpg"/>
+  <b> وكلاء الآليات والمعدات <br/> 100 وكيل </b>
+</div>
+</a>
+
 <a href="equipment/trucks.php">
 <div class="cat">
 <img src="image/equipment/truck.png"/>

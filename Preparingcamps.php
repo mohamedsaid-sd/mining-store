@@ -72,6 +72,12 @@ include 'header.php';
 
 <div class="row" style="margin: 2px;font-weight: bold;">
 
+<a href="camps/clients.php">
+<div class="cat-long">
+  <img src="image/main/camps.jpg"/>
+  <b> وكلاء تجهيز المعسكرات <br/> 500 وكيل </b>
+</div>
+</a>
 
 <a href="camps/home.php">
 <div class="cat">
