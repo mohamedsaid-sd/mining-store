@@ -15,7 +15,7 @@ if(isset($_POST['ar'])){
 }
 
 if($_SESSION['lang'] == 'en'){
-include '../lang/en.php';
+	include '../lang/ar.php';	
 }else{
 include '../lang/ar.php';	
 }
@@ -75,44 +75,10 @@ include '../lang/ar.php';
 
 <div class="row" style="margin: 2px;font-weight: bold;">
 
-<a href="#">
-<div class="cat">
-	
-	<?php echo _excavators; ?>
-	<br/>
-	<img src="../image/equipment/heavy/excavator.png"/>
-</div>
-</a>
-
-<a href="#">
-<div class="cat">
-	
-	<?php echo _dozers; ?>
-	<br/>
-	<img src="../image/equipment/heavy/dozers.png"/>
-</div>
-</a>
 
 
-<a href="#">
-<div class="cat">
-	
-	<?php echo  _gradres; ?>
-	<br/>
-	<img src="../image/equipment/heavy/graders.png"/>
 
-</div>
-</a>
 
-<a href="#">
-<div class="cat">
-	
-	<?php echo _loaders; ?>
-	<br/>
-	<img src="../image/equipment/heavy/loder.png"/>
-
-</div>
-</a>
 
 <a href="#">
 <div class="cat">
@@ -135,15 +101,7 @@ include '../lang/ar.php';
 </div>
 </a>
 
-<a href="#">
-<div class="cat">
-	
-	<?php echo _punching; ?> 
-	<br/>
-	<img src="../image/equipment/heavy/machien.png"/>
 
-</div>
-</a>
 
 <a href="#">
 <div class="cat">

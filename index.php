@@ -198,7 +198,7 @@ include 'header.php';
 <a href="homespare.php">
 <div class="cat">
 	<img src="image/main/spare.jpg"/>
-	<b> الاسبيرات </b>
+	<b> قطع الغيار </b>
 </div>
 </a>
 

@@ -15,7 +15,8 @@ if(isset($_POST['ar'])){
 }
 
 if($_SESSION['lang'] == 'en'){
-include 'lang/en.php';
+  include 'lang/ar.php';	
+
 }else{
 include 'lang/ar.php';	
 }
@@ -72,61 +73,118 @@ include 'header.php';
 <div class="row" style="margin: 2px;font-weight: bold;">
 
 <a href="equipment/clients.php">
-<div class="cat-long">
+<div class="cat2">
   <img src="image/main/contract.jpg"/>
   <b> وكلاء الآليات والمعدات <br/> 100 وكيل </b>
 </div>
 </a>
 
-<a href="equipment/trucks.php">
+
+
+<a href="equipment/products.php">
 <div class="cat">
-<img src="image/equipment/truck.png"/>
-<b><?php echo _TRUCKS; ?></b>
+	<img src="image/equipment/s.jpeg"/>
+  <b> <?php echo _punching; ?></b>
+
 </div>
 </a>
 
-<a href="equipment/heavy.php">
+<a href="equipment/products.php">
 <div class="cat">
-<img src="image/equipment/heavy.png"/>
-<b><?php echo _HEAVY; ?></b>
-</div>
-</a>
-
-<a href="#">
-<div class="cat">
-<img src="image/equipment/accessores.png"/>
-<b><?php echo _ACCESSORY; ?></b>
-</div>
-</a>
-
-<a href="#">
-<div class="cat">
-<img src="image/equipment/transport.png"/>
-<b><?php echo _MAIGRATION; ?></b>
+	<img src="image/equipment/heavy/excavator.png"/>
+  <b> <?php echo _excavators; ?></b>
 </div>
 </a>
 
 
-<a href="#">
+
+<a href="equipment/products.php">
 <div class="cat">
-<img src="image/equipment/generators.png"/>
-<b><?php echo _GENERATOR; ?></b>
+
+	<img src="image/equipment/heavy/dozers.png"/>
+  <b> <?php echo _dozers; ?></b>
 </div>
 </a>
 
-<a href="#">
+<a href="equipment/products.php">
 <div class="cat">
-<img src="image/equipment/maintenance.png"/>
-<b><?php echo _MAINTENCE; ?></b>
+	<img src="image/equipment/heavy/graders.png"/>
+  <b> <?php echo _gradres; ?></b>
 </div>
 </a>
 
 <a href="#">
 <div class="cat">
-<img src="image/main/truck.png"/>
-<b><?php echo _other; ?></b>
+<img src="image/equipment/q3.png"/>
+<b>القلابات </b>
 </div>
 </a>
+
+<a href="equipment/products.php">
+<div class="cat">
+<img src="image/equipment/q1.jpeg"/>
+<b>شاحنات</b>
+</div>
+</a>
+
+<a href="equipment/products.php">
+<div class="cat">
+	<img src="image/equipment/heavy/loder.png"/>
+  <b><?php echo _loaders; ?></b>
+
+</div>
+</a>
+
+<a href="equipment/products.php">
+<div class="cat">
+<img src="image/equipment/q2.jpeg""/>
+<b>رافعات</b>
+</div>
+</a>
+
+
+<a href="equipment/products.php">
+<div class="cat">
+<img src="image/equipment/q6.jpeg"/>
+<b>رافعات شوكية</b>
+</div>
+</a>
+
+<a href="equipment/products.php">
+<div class="cat">
+<img src="image/equipment/t.jpeg"/>
+<b> التناكر</b>
+</div>
+</a>
+
+<a href="#">
+<div class="cat">
+<img src="image/equipment/m.jpeg"/>
+<b> المندالات</b>
+</div>
+</a>
+
+
+
+
+<a href="#">
+<div class="cat">
+<img src="image/equipment/q5.jpeg"/>
+<b>مقطورات</b>
+</div>
+</a>
+
+
+
+
+
+<a href="#">
+<div class="cat">
+<img src="image/equipment/q8.jpeg"/>
+<b>معدات أخري</b>
+</div>
+</a>
+
 
 </div>
 

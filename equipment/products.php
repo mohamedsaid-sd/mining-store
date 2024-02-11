@@ -15,7 +15,7 @@ if(isset($_POST['ar'])){
 }
 
 if($_SESSION['lang'] == 'en'){
-include '../lang/en.php';
+	include '../lang/ar.php';
 }else{
 include '../lang/ar.php';	
 }
@@ -34,7 +34,7 @@ include '../lang/ar.php';
 	<?php 
 	if($_SESSION['lang'] == 'en'){
 	?>
-	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/style-ar.css">
 	<?php
 	}else{
 	?>

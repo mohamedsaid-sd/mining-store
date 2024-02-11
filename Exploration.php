@@ -73,7 +73,7 @@ include 'header.php';
 <div class="row" style="margin: 2px;font-weight: bold;">
 
 <a href="exploration/clients.php">
-<div class="cat-long">
+<div class="cat2-long">
   <img src="image/main/explore.jpg"/>
   <b> وكلاء الاستكشاف <br/> 790 وكيل </b>
 </div>

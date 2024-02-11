@@ -366,7 +366,7 @@ header button , header img {
 	text-align: center;
 	align-items: center;
 	vertical-align: center;
-	height: 50px;
+	height: 10px;
 	display: block;
 	background-color: #00000099;
 	width: 91%;
@@ -381,6 +381,40 @@ header button , header img {
    width: 100%;
    height: 150px;
    border-radius: 10px;
+}
+.cat2-long img{
+	width: 100%;
+	height: 150px;
+	border-radius: 10px;
+ }
+
+.cat2-long{
+	padding: 0px;
+	width: 18%;
+	text-align: center;
+	background-color: #eee;
+	margin:1%;
+	border-radius: 15px;
+	font-size: 14px;
+	box-shadow: 2px 3px 5px black;
+	float: right;
+	font-family: 'ando-bold';
+	height: 150px;
+	border-radius: 10px;
+}
+
+.cat2-long b{
+	text-align: center;
+	align-items: center;
+	vertical-align: center;
+	height: 50px;
+	display: block;
+	width: 91%;
+	color: #ffffff;
+	position: relative;
+	top: -70px;
+	padding: 10px;
+	border-radius: 0px 0px 10px 10px;
 }
 
 .cat{
@@ -410,14 +444,53 @@ header button , header img {
 	height: 100px;
 	box-shadow: 2px 2px 5px gray;*/
 }
-
+.cat2{
+	padding: 0px;
+	width: 18%;
+	text-align: center;
+	background-color: #eee;
+	margin:1%;
+	border-radius: 5px;
+	font-size: 14px;
+	box-shadow: 2px 3px 5px black;
+	float: right;
+	font-family: 'ando-bold';
+	height: 150px;
+	border-radius: 10px;
+	/*text-align: start;
+	unicode-bidi: plaintext;
+	color: #000;
+	font-weight: bold;
+	font-size: 15px;
+	background-color: #fff;
+	padding: 10px;
+	margin: 11px;
+	border-radius: 10px;
+	float: right;
+	width: 21%;
+	height: 100px;
+	box-shadow: 2px 2px 5px gray;*/
+}
 .cat b{
+	text-align: center;
+	align-items: center;
+	vertical-align: center;
+	height: 20px;
+	display: block;
+	background-color: #00000099;
+	width: 91%;
+	color: #ffffff;
+	position: relative;
+	top: -50px;
+	padding: 10px;
+	border-radius: 0px 0px 10px 10px;
+}
+.cat2 b{
 	text-align: center;
 	align-items: center;
 	vertical-align: center;
 	height: 50px;
 	display: block;
-	background-color: #00000099;
 	width: 91%;
 	color: #ffffff;
 	position: relative;
@@ -433,6 +506,13 @@ header button , header img {
    z-index: 1;
 }
 
+
+.cat2 img{
+	width: 100%;
+	height: 150px;
+	border-radius: 10px;
+	z-index: 1;
+ }
 .cat .logo{
 	border-radius: 50%;
 	width: 20px;
@@ -875,13 +955,25 @@ input{
 	width: 46%;
 	margin:2%;
 }
-
+.cat2 {
+	width: 46%;
+	margin:2%;
+}
 .cat-long{
+	width: 95%;
+	margin:2%;
+}
+.cat2-long{
 	width: 95%;
 	margin:2%;
 }
 
 .cat-long b{
+	width: 96%;
+	text-align: right;
+}
+
+.cat2-long b{
 	width: 96%;
 	text-align: right;
 }

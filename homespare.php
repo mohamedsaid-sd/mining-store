@@ -65,7 +65,7 @@ include 'header.php';
 <div class="row" style="margin: 2px;font-weight: bold;">
 
 <a href="spare/clients.php">
-<div class="cat-long">
+<div class="cat2-long">
   <img src="image/main/spare.jpg"/>
   <b> وكلاء الاسبيرات <br/> 180 وكيل </b>
 </div>

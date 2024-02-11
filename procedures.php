@@ -133,10 +133,10 @@ include 'header.php';
 <a href="proceduresall.php?id=2">
 <div class="procedure_card">
 <div class="trans">
-<img class="logo" src="image/logo.png"/><br/>
+<img class="logo" src="image/w.jpeg"/><br/>
 <b>  إجراءات وزارة المعادن</b>
 </div>
-<img class="ground"  src="image/main/spare.png"/>
+<img class="ground"  src="image//w.jpeg"/>
 </div>
 </a>
 
@@ -202,13 +202,13 @@ include 'header.php';
 </div>
 </a>
 
-<a href="bank.php?id=all">
+<a href="homebank.php">
 <div class="procedure_card">
 <div class="trans">
-<img class="logo" src="image/logo.png"/><br/>
+<img class="logo" src="image/w1.jpeg"/><br/>
 <b>  الإجراءات البنكية</b>
 </div>
-<img class="ground" src="image/main/spare.png"/>
+<img class="ground" src="image/w1.jpeg"/>
 </div>
 </a>
 
