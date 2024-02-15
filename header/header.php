@@ -1,18 +1,19 @@
-<header id="header" class="fixed-top">
+<header id="header" class="fixed-top" style="color: #fff;">
     <div>
+      !
       <!-- <h1 class="logo"><a href="index.html">Techie</a></h1> -->
       <!-- Uncomment below if you prefer to use an image logo -->
       <nav id="navbar" class="navbar">
-       <a href="index.php" class="logo" style="float: left;">
-       <img style="width: 100px;height: 60px;padding: 5px;margin: 5px;" src="image/logo.png" alt="" >
+       <a href="../index.php" class="logo" style="float: left;">
+       <img style="width: 100px;height: 60px;padding: 5px;margin: 5px;" src="../image/logo.png" alt="" >
        </a>
         <ul>
-          <center id="notify"><li id="notify" > <a href="notofication.php"> <i class="icon-3x icon-bell"> </i> <span>  16 </span> </a> </li></center>
-          <li><a class="nav-link scrollto active" href="index.php">
+          <center id="notify"><li id="notify" > <a href="../notofication.php"> <i class="icon-3x icon-bell"> </i> <span>  16 </span> </a> </li></center>
+          <li><a class="nav-link scrollto active" href="../index.php">
             <i class="icon-home"> </i>الرئيسية </a></li>
           <li><a class="nav-link scrollto" href="#about">
            <i class="icon-bookmark"> </i> المجلة  </a></li>
-           <li><a class="nav-link scrollto" href="forum.php"> 
+           <li><a class="nav-link scrollto" href="../forum.php"> 
             <i class="icon-book"> </i> المنتدي </a></li>
           <li><a class="nav-link scrollto" href="#services"> 
             <i class="icon-pushpin"> </i> المدونة </a></li>
@@ -20,27 +21,10 @@
           <i class="icon-exclamation-sign"> </i> مكرفون سوق التعدين </a></li>
           <li><a class="nav-link scrollto" href="#team">
            <i class="icon-user"> </i> الفريق</a></li>
-   <!--        <li class="dropdown"><a href="#"><span>روابط سريعة</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li> -->
           <li><a class="nav-link scrollto" href="#contact">
             <i class="icon-envelope"> </i>  التواصل</a></li><br/>
-           <li><a class="getstarted scrollto" href="register.php"> سجل معنا</a></li><br/>
-          <li><a style="color: #123;background-color: gold;" class="getstarted scrollto" href="login.php">تسجيل الدخول</a></li>
+           <li><a class="getstarted scrollto" href="../register.php"> سجل معنا</a></li><br/>
+          <li><a style="color: #123;background-color: gold;" class="getstarted scrollto" href="../login.php">تسجيل الدخول</a></li>
       <!--    <li> <a  class="nav-link scrollto"href="#hero"> Eng </a> </li> <li> <a href="#hero"> ar </a>  </li> -->
         </ul> 
         <i class="bi bi-list mobile-nav-toggle"></i>
