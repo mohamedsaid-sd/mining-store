@@ -57,15 +57,16 @@ include 'lang/ar.php';
 </head>
 <body>
 
-<header id="header" class="fixed-top" >
-    <div class="container d-flex align-items-center justify-content-between">
+<header id="header" class="fixed-top">
+    <div>
       <!-- <h1 class="logo"><a href="index.html">Techie</a></h1> -->
       <!-- Uncomment below if you prefer to use an image logo -->
       <nav id="navbar" class="navbar">
        <a href="index.php" class="logo" style="float: left;">
-       <img style="width: 100px;height: 50px;padding: 5px;margin: 5px;" src="image/logo.png" alt="" >
+       <img style="width: 100px;height: 60px;padding: 5px;margin: 5px;" src="image/logo.png" alt="" >
        </a>
         <ul>
+          <center id="notify"><li id="notify" > <a href="notofication.php"> <i class="icon-3x icon-bell"> </i> <span>  16 </span> </a> </li></center>
           <li><a class="nav-link scrollto" href="index.php">
             <i class="icon-home"> </i>الرئيسية </a></li>
           <li><a class="nav-link scrollto" href="#about">
@@ -102,11 +103,11 @@ include 'lang/ar.php';
       <!--    <li> <a  class="nav-link scrollto"href="#hero"> Eng </a> </li> <li> <a href="#hero"> ar </a>  </li> -->
         </ul> 
         <i class="bi bi-list mobile-nav-toggle"></i>
+         مرحبا بك ! <i style="color: gold;" class="icon-x icon-globe"> </i>
       </nav><!-- .navbar -->
     </div>
   </header><!-- End Header -->
 
- <a href="index.php">
 <div id="page-title">
 <i class="icon-double-angle-right"> </i> &nbsp منتدي سوق التعدين   
 </div></a>
