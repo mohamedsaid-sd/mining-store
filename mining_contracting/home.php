@@ -62,6 +62,10 @@ include '../header/header.php';
  مقاولات التعدين <i class="icon-double-angle-left"> </i> الحفر
 </div></a>
 
+
+
+<a style="color: #123;background-color: gold;" class="getstarted scrollto" href=""> أضافه اعلان</a>
+
 <div id="main">
 <div class="row" style="margin: 2px;font-weight: bold;">
 

@@ -61,6 +61,7 @@ include '../header/header.php';
  &nbsp
  تجهيز المعسكرات <i class="icon-double-angle-left"> </i> رسم الخرائط
 </div></a>
+<a style="color: #123;background-color: gold;" class="getstarted scrollto" href=""> أضافه اعلان</a>
 
 <div id="main">
 <div class="row" style="margin: 2px;font-weight: bold;">

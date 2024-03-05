@@ -62,6 +62,7 @@ include '../header/header.php';
  &nbsp
  المعالجة والاستخلاص
 </div></a>
+<a style="color: #123;background-color: gold;" class="getstarted scrollto" href="login.php"> أضافه اعلان</a>
 
 <div id="main">
 <div class="row" style="margin: 2px;font-weight: bold;">

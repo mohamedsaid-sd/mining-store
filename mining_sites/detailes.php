@@ -15,7 +15,7 @@ if(isset($_POST['ar'])){
 }
 
 if($_SESSION['lang'] == 'en'){
-include '../lang/en.php';
+  include '../lang/ar.php';	
 }else{
 include '../lang/ar.php';	
 }

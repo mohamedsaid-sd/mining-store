@@ -58,6 +58,7 @@ include '../header/header.php';
 </div>
 </a>
 
+<a style="color: #123;background-color: gold;" class="getstarted scrollto" href=""> أضافه اعلان</a>
 
 <div id="list"> 
 
